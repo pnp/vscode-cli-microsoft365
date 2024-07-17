@@ -48,13 +48,13 @@ foreach ($command in $allCommands) {
 
     $commandSnippets.Add($commandTitle, $commandClass)
 
-    $commandUrl = $command.FullName.Split("cli-microsoft365")[1]
+    $commandUrl = $command.FullName.Split("cli-microsoft365\docs")[1]
     $commandUrl = $commandUrl.Replace('\', '/')
-    $commandDocsUrl = $commandUrl.Replace('docs/docs/', '')
+    $commandDocsUrl = $commandUrl.Replace('docs/', '')
     $commandDocsUrl = $commandDocsUrl.Replace('.mdx', '')
     $commands += [pscustomobject]@{
         name = "$commandTitle"; 
-        url = "https://raw.githubusercontent.com/pnp/cli-microsoft365/main$commandUrl";
+        url = "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs$commandUrl";
         docs = "https://pnp.github.io/cli-microsoft365$commandDocsUrl"
     }
 }
