@@ -216,6 +216,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-permission-list"
     },
     {
+      "name": "entra app permission remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-permission-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-permission-remove"
+    },
+    {
       "name": "entra app remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/app/app-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/app/app-remove"
@@ -299,6 +304,11 @@
       "name": "entra group user list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-user-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-user-list"
+    },
+    {
+      "name": "entra group user set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-user-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-user-set"
     },
     {
       "name": "entra groupsetting add",
@@ -476,9 +486,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/pim/pim-role-assignment-add"
     },
     {
+      "name": "entra pim role assignment eligibility list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/pim/pim-role-assignment-eligibility-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/pim/pim-role-assignment-eligibility-list"
+    },
+    {
       "name": "entra pim role assignment list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/pim/pim-role-assignment-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/pim/pim-role-assignment-list"
+    },
+    {
+      "name": "entra pim role request list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/pim/pim-role-request-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/pim/pim-role-request-list"
     },
     {
       "name": "entra policy list",
@@ -514,6 +534,11 @@
       "name": "entra user get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-get"
+    },
+    {
+      "name": "entra user groupmembership list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-groupmembership-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-groupmembership-list"
     },
     {
       "name": "entra user guest add",
@@ -2616,6 +2641,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-add"
     },
     {
+      "name": "spo site admin list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-admin-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-admin-list"
+    },
+    {
       "name": "spo site appcatalog add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-appcatalog-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-appcatalog-add"
@@ -2944,6 +2974,16 @@
       "name": "spo tenant settings set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-settings-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-settings-set"
+    },
+    {
+      "name": "spo tenant site archive",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-archive.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-archive"
+    },
+    {
+      "name": "spo tenant site unarchive",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-unarchive.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-unarchive"
     },
     {
       "name": "spo term add",
@@ -3446,6 +3486,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/user/user-app-remove"
     },
     {
+      "name": "teams user app upgrade",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/user/user-app-upgrade.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/user/user-app-upgrade"
+    },
+    {
       "name": "teams user list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/user/user-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/user/user-list"
@@ -3611,6 +3656,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/connections/connections-app-create"
     },
     {
+      "name": "viva engage community get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-get"
+    },
+    {
       "name": "viva engage group list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-group-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-group-list"
@@ -3734,6 +3784,11 @@
       "name": "request",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/request.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/request"
+    },
+    {
+      "name": "search",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/search.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/search"
     },
     {
       "name": "setup",

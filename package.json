@@ -1,127 +1,127 @@
 {
-	"name": "cli-for-microsoft-365-extension",
-	"displayName": "CLI for Microsoft 365 extension",
-	"description": "This extension provides functionalities that may be helpful when creating scripts using CLI for Microsoft 365 like docs, commands list, sample gallery and many more.",
-	"version": "3.0.0",
-	"publisher": "adamwojcikit",
-	"author": {
-		"name": "Adam"
-	},
-	"icon": "assets/icon.png",
-	"engines": {
-        "vscode": "^1.90.0"
+  "name": "cli-for-microsoft-365-extension",
+  "displayName": "CLI for Microsoft 365 extension",
+  "description": "This extension provides functionalities that may be helpful when creating scripts using CLI for Microsoft 365 like docs, commands list, sample gallery and many more.",
+  "version": "3.0.1",
+  "publisher": "adamwojcikit",
+  "author": {
+    "name": "Adam"
+  },
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Snippets",
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "CLI",
+    "Microsoft365",
+    "SharePoint"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adam-it/cli-for-microsoft-365-extension"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/Adam-it"
+  },
+  "contributes": {
+    "chatParticipants": [
+      {
+        "id": "cli-microsoft365.pnp",
+        "fullName": "CLI for Microsoft 365",
+        "name": "clim365",
+        "description": "What do you want to know about CLI for Microsoft 365?",
+        "isSticky": true,
+        "commands": [
+          {
+            "name": "command",
+            "description": "Find the correct command for your task"
+          },
+          {
+            "name": "script",
+            "description": "Find the right script sample for your scenario"
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "command": "cliM365.showSamples",
+        "title": "CLI M365: Open samples gallery"
+      },
+      {
+        "command": "cliM365.showManual",
+        "title": "CLI M365: Open docs for command"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "shellscript",
+        "path": "./snippets/cliForMicrosoft365.code-snippets"
+      },
+      {
+        "language": "powershell",
+        "path": "./snippets/cliForMicrosoft365.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/cliForMicrosoft365.code-snippets"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "cliM365",
+          "title": "CLI for Microsoft 365 commands",
+          "icon": "assets/logo.svg"
+        }
+      ]
     },
-	"categories": [
-		"Snippets",
-		"Programming Languages",
-		"Other"
-	],
-	"keywords": [
-		"CLI",
-		"Microsoft365",
-		"SharePoint"
-	],
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Adam-it/cli-for-microsoft-365-extension"
-	},
-	"sponsor": {
-		"url": "https://github.com/sponsors/Adam-it"
-	},
-	"contributes": {
-		"chatParticipants": [
-			{
-				"id": "cli-microsoft365.pnp",
-				"fullName": "CLI for Microsoft 365",
-				"name": "clim365",
-				"description": "What do you want to know about CLI for Microsoft 365?",
-				"isSticky": true,
-				"commands": [
-					{
-						"name": "command",
-						"description": "Find the correct command for your task"
-					},
-					{
-						"name": "script",
-						"description": "Find the right script sample for your scenario"
-					}
-				]
-			}
-		],
-		"commands": [
-			{
-				"command": "cliM365.showSamples",
-				"title": "CLI M365: Open samples gallery"
-			},
-			{
-				"command": "cliM365.showManual",
-				"title": "CLI M365: Open docs for command"
-			}
-		],
-		"snippets": [
-			{
-				"language": "shellscript",
-				"path": "./snippets/cliForMicrosoft365.code-snippets"
-			},
-			{
-				"language": "powershell",
-				"path": "./snippets/cliForMicrosoft365.code-snippets"
-			},
-			{
-				"language": "javascript",
-				"path": "./snippets/cliForMicrosoft365.code-snippets"
-			}
-		],
-		"viewsContainers": {
-			"activitybar": [
-				{
-					"id": "cliM365",
-					"title": "CLI for Microsoft 365 commands",
-					"icon": "assets/logo.svg"
-				}
-			]
-		},
-		"views": {
-			"cliM365": [
-				{
-					"type": "webview",
-					"id": "cliM365",
-					"name": "CLI for Microsoft 365 commands",
-					"icon": "assets/logo.svg"
-				}
-			]
-		}
-	},
-	"activationEvents": [
-		"onView:cliM365",
-		"onCommand:cliM365.showSamples",
-		"onCommand:cliM365.showManual"
-	],
-	"main": "./out/src/extension.js",
-	"scripts": {
-		"install:all": "npm install && npm --prefix ./webview-ui/commandsList install ./webview-ui/commandsList && npm --prefix ./webview-ui/docsView install ./webview-ui/docsView && npm --prefix ./webview-ui/samplesView install ./webview-ui/samplesView",
-		"build:webview": "npm --prefix ./webview-ui/commandsList run build && npm --prefix ./webview-ui/docsView run build && npm --prefix ./webview-ui/samplesView run build",
-		"vscode:prepublish": "npm run clean && npm run build:webview && npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile && npm run lint",
-		"clean": "del-cli --force ./out"
-	},
-	"devDependencies": {
-		"@types/glob": "^7.1.3",
-		"@types/node": "^12.11.7",
-		"@typescript-eslint/eslint-plugin": "^4.14.1",
-		"@typescript-eslint/parser": "^4.14.1",
-		"del-cli": "^4.0.1",
-		"eslint": "^7.19.0",
-		"glob": "^7.1.6",
-		"prettier": "^2.2.1",
-		"typescript": "^4.1.3",
-		"vscode-test": "^1.5.0",
-		"@vscode/codicons": "^0.0.31"
-	},
-	"dependencies": {
-		"axios": "^0.27.2"
-	}
+    "views": {
+      "cliM365": [
+        {
+          "type": "webview",
+          "id": "cliM365",
+          "name": "CLI for Microsoft 365 commands",
+          "icon": "assets/logo.svg"
+        }
+      ]
+    }
+  },
+  "activationEvents": [
+    "onView:cliM365",
+    "onCommand:cliM365.showSamples",
+    "onCommand:cliM365.showManual"
+  ],
+  "main": "./out/src/extension.js",
+  "scripts": {
+    "install:all": "npm install && npm --prefix ./webview-ui/commandsList install ./webview-ui/commandsList && npm --prefix ./webview-ui/docsView install ./webview-ui/docsView && npm --prefix ./webview-ui/samplesView install ./webview-ui/samplesView",
+    "build:webview": "npm --prefix ./webview-ui/commandsList run build && npm --prefix ./webview-ui/docsView run build && npm --prefix ./webview-ui/samplesView run build",
+    "vscode:prepublish": "npm run clean && npm run build:webview && npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "clean": "del-cli --force ./out"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.3",
+    "@types/node": "^12.11.7",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "del-cli": "^4.0.1",
+    "eslint": "^7.19.0",
+    "glob": "^7.1.6",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0",
+    "@vscode/codicons": "^0.0.31"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
