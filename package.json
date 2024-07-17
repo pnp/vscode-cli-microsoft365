@@ -24,10 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Adam-it/cli-for-microsoft-365-extension"
-  },
-  "sponsor": {
-    "url": "https://github.com/sponsors/Adam-it"
+    "url": "https://github.com/pnp/vscode-cli-microsoft365"
   },
   "contributes": {
     "chatParticipants": [
