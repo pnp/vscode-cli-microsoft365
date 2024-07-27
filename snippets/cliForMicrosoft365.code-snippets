@@ -836,6 +836,15 @@
       "m365 entra m365group user set"
     ]
   },
+  "entra multitenant get": {
+    "body": [
+      "m365 entra multitenant get "
+    ],
+    "description": "Gets properties of the multitenant organization",
+    "prefix": [
+      "m365 entra multitenant get"
+    ]
+  },
   "entra oauth2grant add": {
     "body": [
       "m365 entra oauth2grant add "
@@ -2976,6 +2985,15 @@
     "description": "Adds a new list or site content type",
     "prefix": [
       "m365 spo contenttype add"
+    ]
+  },
+  "spo contenttype field list": {
+    "body": [
+      "m365 spo contenttype field list --webUrl $1"
+    ],
+    "description": "Lists fields for a given site or list content type",
+    "prefix": [
+      "m365 spo contenttype field list"
     ]
   },
   "spo contenttype field remove": {
@@ -6011,6 +6029,15 @@
       "m365 teams meeting add"
     ]
   },
+  "teams meeting attendancereport get": {
+    "body": [
+      "m365 teams meeting attendancereport get --meetingId $1"
+    ],
+    "description": "Gets attendance report for a given meeting",
+    "prefix": [
+      "m365 teams meeting attendancereport get"
+    ]
+  },
   "teams meeting attendancereport list": {
     "body": [
       "m365 teams meeting attendancereport list --meetingId $1"
@@ -6081,6 +6108,15 @@
     "description": "Lists all messages from a channel in a Microsoft Teams team",
     "prefix": [
       "m365 teams message list"
+    ]
+  },
+  "teams message remove": {
+    "body": [
+      "m365 teams message remove --id $1"
+    ],
+    "description": "Removes a message from a channel in a Microsoft Teams team",
+    "prefix": [
+      "m365 teams message remove"
     ]
   },
   "teams message reply list": {
@@ -6648,6 +6684,15 @@
     "description": "Creates a Viva Connections desktop app package to upload to Microsoft Teams",
     "prefix": [
       "m365 viva connections app create"
+    ]
+  },
+  "viva engage community add": {
+    "body": [
+      "m365 viva engage community add --displayName $1 --description $2 --privacy $3"
+    ],
+    "description": "Creates a new community in Viva Engage",
+    "prefix": [
+      "m365 viva engage community add"
     ]
   },
   "viva engage community get": {

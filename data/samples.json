@@ -3532,6 +3532,40 @@
       "source": "script-samples"
     },
     {
+      "title": "Remove the Teamify link on Group sites",
+      "url": "https://pnp.github.io/script-samples/spo-remove-teamify-link/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-teamify-link/README.md",
+      "description": "Remove the link in the left hand side suggesting to convert a Group Site to a Teams site",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-remove-teamify-link/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        },
+        {
+          "name": "Reshmee Auckloo",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7693852?v=4"
+        },
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        }
+      ],
+      "tags": [
+        "Set-PnPSite",
+        "Set-PnPPropertyBagValue",
+        "Set-PnPTeamifyPromptHidden"
+      ],
+      "createDate": "2024-07-16",
+      "source": "script-samples"
+    },
+    {
       "title": "Run A Search Query And Export To CSV",
       "url": "https://pnp.github.io/script-samples/spo-search-export-to-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-search-export-to-csv/README.md",
@@ -4555,6 +4589,33 @@
         "sites"
       ],
       "createDate": "2020-03-28",
+      "source": "cli"
+    },
+    {
+      "title": "CLI - Add CI/CD Pipeline for your SharePoint Framework project",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/add-ci-cd-pipeline",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/add-ci-cd-pipeline/index.mdx",
+      "description": "Script will create either a GitHub Actions or Azure DevOps CI/CD pipeline for your SharePoint Framework project.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/add-ci-cd-pipeline/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "DevOps",
+        "pipelines",
+        "CI/CD",
+        "workflows"
+      ],
+      "createDate": "2024-05-05",
       "source": "cli"
     },
     {
