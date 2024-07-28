@@ -461,6 +461,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-user-set"
     },
     {
+      "name": "entra multitenant get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/multitenant/multitenant-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/multitenant/multitenant-get"
+    },
+    {
       "name": "entra oauth2grant add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/oauth2grant/oauth2grant-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/oauth2grant/oauth2grant-add"
@@ -1624,6 +1629,11 @@
       "name": "spo contenttype add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/contenttype/contenttype-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/contenttype/contenttype-add"
+    },
+    {
+      "name": "spo contenttype field list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/contenttype/contenttype-field-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/contenttype/contenttype-field-list"
     },
     {
       "name": "spo contenttype field remove",
@@ -3306,6 +3316,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-add"
     },
     {
+      "name": "teams meeting attendancereport get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-attendancereport-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-attendancereport-get"
+    },
+    {
       "name": "teams meeting attendancereport list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-attendancereport-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-attendancereport-list"
@@ -3344,6 +3359,11 @@
       "name": "teams message list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/message/message-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/message/message-list"
+    },
+    {
+      "name": "teams message remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/message/message-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/message/message-remove"
     },
     {
       "name": "teams message reply list",
@@ -3654,6 +3674,11 @@
       "name": "viva connections app create",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/connections/connections-app-create.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/connections/connections-app-create"
+    },
+    {
+      "name": "viva engage community add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-add"
     },
     {
       "name": "viva engage community get",
