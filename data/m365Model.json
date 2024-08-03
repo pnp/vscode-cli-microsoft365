@@ -1431,6 +1431,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/containertype/containertype-add"
     },
     {
+      "name": "Container Types list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/containertype/containertype-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/containertype/containertype-list"
+    },
+    {
       "name": "spfx package generate",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spfx/package/package-generate.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/package/package-generate"
