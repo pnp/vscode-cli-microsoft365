@@ -461,9 +461,24 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/m365group/m365group-user-set"
     },
     {
+      "name": "entra multitenant add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/multitenant/multitenant-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/multitenant/multitenant-add"
+    },
+    {
       "name": "entra multitenant get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/multitenant/multitenant-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/multitenant/multitenant-get"
+    },
+    {
+      "name": "entra multitenant remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/multitenant/multitenant-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/multitenant/multitenant-remove"
+    },
+    {
+      "name": "entra multitenant set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/multitenant/multitenant-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/multitenant/multitenant-set"
     },
     {
       "name": "entra oauth2grant add",
@@ -1431,7 +1446,7 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/containertype/containertype-add"
     },
     {
-      "name": "Container Types list",
+      "name": "spe containertype list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/containertype/containertype-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/containertype/containertype-list"
     },
@@ -1974,6 +1989,16 @@
       "name": "spo folder set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-set"
+    },
+    {
+      "name": "spo folder sharinglink get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-sharinglink-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-get"
+    },
+    {
+      "name": "spo folder sharinglink list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-sharinglink-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-list"
     },
     {
       "name": "spo group add",
