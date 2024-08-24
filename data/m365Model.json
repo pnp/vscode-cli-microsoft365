@@ -276,6 +276,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/enterpriseapp/enterpriseapp-list"
     },
     {
+      "name": "entra enterpriseapp remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/enterpriseapp/enterpriseapp-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/enterpriseapp/enterpriseapp-remove"
+    },
+    {
       "name": "entra group add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-add"
@@ -294,6 +299,11 @@
       "name": "entra group remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-remove"
+    },
+    {
+      "name": "entra group set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-set"
     },
     {
       "name": "entra group user add",
@@ -3399,6 +3409,11 @@
       "name": "teams message reply list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/message/message-reply-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/message/message-reply-list"
+    },
+    {
+      "name": "teams message restore",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/message/message-restore.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/message/message-restore"
     },
     {
       "name": "teams message send",
