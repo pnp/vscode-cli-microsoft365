@@ -856,6 +856,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/onedrive/onedrive-list"
     },
     {
+      "name": "onenote notebook add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/onenote/notebook/notebook-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/onenote/notebook/notebook-add"
+    },
+    {
       "name": "onenote notebook list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/onenote/notebook/notebook-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/onenote/notebook/notebook-list"
