@@ -1367,6 +1367,24 @@
       "m365 flow owner remove --environmentName $1 --flowName $2"
     ]
   },
+  "flow recyclebinitem list": {
+    "description": "Lists all soft-deleted Power Automate flows within an environment",
+    "prefix": [
+      "m365 flow recyclebinitem list"
+    ],
+    "body": [
+      "m365 flow recyclebinitem list --environmentName $1"
+    ]
+  },
+  "flow recyclebinitem restore": {
+    "description": "Restores a soft-deleted Power Automate flow",
+    "prefix": [
+      "m365 flow recyclebinitem restore"
+    ],
+    "body": [
+      "m365 flow recyclebinitem restore --environmentName $1 --flowName $2"
+    ]
+  },
   "flow remove": {
     "description": "Removes the specified Power Automate flow",
     "prefix": [
@@ -3662,6 +3680,24 @@
       "m365 spo folder set "
     ]
   },
+  "spo folder sharinglink add": {
+    "description": "Creates a new sharing link to a folder",
+    "prefix": [
+      "m365 spo folder sharinglink add"
+    ],
+    "body": [
+      "m365 spo folder sharinglink add --webUrl $1 --type $2"
+    ]
+  },
+  "spo folder sharinglink clear": {
+    "description": "Removes sharing links of a folder",
+    "prefix": [
+      "m365 spo folder sharinglink clear"
+    ],
+    "body": [
+      "m365 spo folder sharinglink clear --webUrl $1"
+    ]
+  },
   "spo folder sharinglink get": {
     "description": "Gets details about a specific sharing link on a folder",
     "prefix": [
@@ -3678,6 +3714,15 @@
     ],
     "body": [
       "m365 spo folder sharinglink list --webUrl $1"
+    ]
+  },
+  "spo folder sharinglink remove": {
+    "description": "Removes a specific sharing link of a folder",
+    "prefix": [
+      "m365 spo folder sharinglink remove"
+    ],
+    "body": [
+      "m365 spo folder sharinglink remove --webUrl $1 --id $2"
     ]
   },
   "spo get": {
@@ -4931,6 +4976,15 @@
       "m365 spo site add --title $1"
     ]
   },
+  "spo site admin add": {
+    "description": "Adds a user or group as a site collection administrator",
+    "prefix": [
+      "m365 spo site admin add"
+    ],
+    "body": [
+      "m365 spo site admin add --siteUrl $1"
+    ]
+  },
   "spo site admin list": {
     "description": "Lists all administrators of a specific SharePoint site",
     "prefix": [
@@ -5847,6 +5901,15 @@
     ],
     "body": [
       "m365 spo web set --url $1"
+    ]
+  },
+  "spp contentcenter list": {
+    "description": "Gets information about the SharePoint Premium content centers",
+    "prefix": [
+      "m365 spp contentcenter list"
+    ],
+    "body": [
+      "m365 spp contentcenter list "
     ]
   },
   "status": {
