@@ -706,6 +706,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/file/file-list"
     },
     {
+      "name": "file move",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/file/file-move.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/file/file-move"
+    },
+    {
       "name": "flow environment get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/environment/environment-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/environment/environment-get"
@@ -729,6 +734,16 @@
       "name": "flow owner remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/owner/owner-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/owner/owner-remove"
+    },
+    {
+      "name": "flow recyclebinitem list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/recyclebinitem/recyclebinitem-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/recyclebinitem/recyclebinitem-list"
+    },
+    {
+      "name": "flow recyclebinitem restore",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/flow/recyclebinitem/recyclebinitem-restore.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/flow/recyclebinitem/recyclebinitem-restore"
     },
     {
       "name": "flow run cancel",
@@ -2006,6 +2021,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-set"
     },
     {
+      "name": "spo folder sharinglink add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-sharinglink-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-add"
+    },
+    {
+      "name": "spo folder sharinglink clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-sharinglink-clear.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-clear"
+    },
+    {
       "name": "spo folder sharinglink get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-sharinglink-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-get"
@@ -2014,6 +2039,11 @@
       "name": "spo folder sharinglink list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-sharinglink-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-list"
+    },
+    {
+      "name": "spo folder sharinglink remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-sharinglink-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-remove"
     },
     {
       "name": "spo group add",
@@ -2696,9 +2726,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-add"
     },
     {
+      "name": "spo site admin add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-admin-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-admin-add"
+    },
+    {
       "name": "spo site admin list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-admin-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-admin-list"
+    },
+    {
+      "name": "spo site admin remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-admin-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-admin-remove"
     },
     {
       "name": "spo site appcatalog add",
@@ -3221,6 +3261,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/spo-set"
     },
     {
+      "name": "spp contentcenter list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/contentcenter/contentcenter-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/contentcenter/contentcenter-list"
+    },
+    {
       "name": "teams app install",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/app/app-install.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/app/app-install"
@@ -3379,6 +3424,11 @@
       "name": "teams meeting list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-list"
+    },
+    {
+      "name": "teams meeting transcript get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/meeting/meeting-transcript-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/meeting/meeting-transcript-get"
     },
     {
       "name": "teams meeting transcript list",
