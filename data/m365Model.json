@@ -2871,6 +2871,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-set"
     },
     {
+      "name": "spo site sharingpermission set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-sharingpermission-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-sharingpermission-set"
+    },
+    {
       "name": "spo sitedesign add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/sitedesign/sitedesign-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/sitedesign/sitedesign-add"
@@ -3784,6 +3789,11 @@
       "name": "viva engage community get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-get"
+    },
+    {
+      "name": "viva engage community list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-list"
     },
     {
       "name": "viva engage group list",
