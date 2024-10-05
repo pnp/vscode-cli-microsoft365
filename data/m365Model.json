@@ -96,11 +96,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/cli-issue"
     },
     {
-      "name": "cli reconsent",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/cli/cli-reconsent.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/cli-reconsent"
-    },
-    {
       "name": "connection list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/connection/connection-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/connection/connection-list"
@@ -296,6 +291,21 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-list"
     },
     {
+      "name": "entra group member add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-member-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-member-add"
+    },
+    {
+      "name": "entra group member list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-member-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-member-list"
+    },
+    {
+      "name": "entra group member set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-member-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-member-set"
+    },
+    {
       "name": "entra group remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-remove"
@@ -304,21 +314,6 @@
       "name": "entra group set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-set"
-    },
-    {
-      "name": "entra group user add",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-user-add.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-user-add"
-    },
-    {
-      "name": "entra group user list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-user-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-user-list"
-    },
-    {
-      "name": "entra group user set",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-user-set.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-user-set"
     },
     {
       "name": "entra groupsetting add",
@@ -2861,11 +2856,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-remove"
     },
     {
-      "name": "spo site rename",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-rename.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-rename"
-    },
-    {
       "name": "spo site set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-set"
@@ -3079,6 +3069,11 @@
       "name": "spo tenant site archive",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-archive.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-archive"
+    },
+    {
+      "name": "spo tenant site rename",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-rename.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-rename"
     },
     {
       "name": "spo tenant site unarchive",
