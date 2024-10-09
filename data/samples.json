@@ -2080,6 +2080,30 @@
       "source": "script-samples"
     },
     {
+      "title": "Download all files from Document Libarary/Folder",
+      "url": "https://pnp.github.io/script-samples/spo-download-files-from-doclib/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-files-from-doclib/README.md",
+      "description": "The script will download all files from an SharePoint Document Libraray or Folder",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-download-files-from-doclib/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Peter Paul Kirschner",
+          "pictureUrl": "https://github.com/petkir.png"
+        }
+      ],
+      "tags": [
+        "<Cmdlets-Used>"
+      ],
+      "createDate": "2024-09-21",
+      "source": "script-samples"
+    },
+    {
       "title": "Empty SharePoint Online Site Recycle Bin",
       "url": "https://pnp.github.io/script-samples/spo-empty-recycle-bin/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-empty-recycle-bin/README.md",
