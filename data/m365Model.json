@@ -3071,6 +3071,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-archive"
     },
     {
+      "name": "spo tenant site membership list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-membership-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-membership-list"
+    },
+    {
       "name": "spo tenant site rename",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-rename.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-rename"
@@ -3264,6 +3269,11 @@
       "name": "spp contentcenter list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/contentcenter/contentcenter-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/contentcenter/contentcenter-list"
+    },
+    {
+      "name": "spp model list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/model/model-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/model/model-list"
     },
     {
       "name": "teams app install",
