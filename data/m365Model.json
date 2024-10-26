@@ -2561,6 +2561,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-list"
     },
     {
+      "name": "spo page publish",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/page/page-publish.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-publish"
+    },
+    {
       "name": "spo page remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/page/page-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-remove"
