@@ -2041,6 +2041,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-remove"
     },
     {
+      "name": "spo folder sharinglink set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-sharinglink-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-set"
+    },
+    {
       "name": "spo group add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/group/group-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/group/group-add"
@@ -2826,11 +2831,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-inplacerecordsmanagement-set"
     },
     {
-      "name": "spo site list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-list"
-    },
-    {
       "name": "spo site recyclebinitem clear",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-recyclebinitem-clear.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-recyclebinitem-clear"
@@ -3074,6 +3074,11 @@
       "name": "spo tenant site archive",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-archive.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-archive"
+    },
+    {
+      "name": "spo tenant site list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-list"
     },
     {
       "name": "spo tenant site membership list",
@@ -3804,6 +3809,11 @@
       "name": "viva engage community list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-list"
+    },
+    {
+      "name": "viva engage community user list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-user-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-user-list"
     },
     {
       "name": "viva engage group list",
