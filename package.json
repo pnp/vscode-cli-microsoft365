@@ -2,7 +2,7 @@
   "name": "cli-for-microsoft-365-extension",
   "displayName": "CLI for Microsoft 365 extension",
   "description": "This extension provides functionalities that may be helpful when creating scripts using CLI for Microsoft 365 like docs, commands list, sample gallery and many more.",
-  "version": "3.0.17",
+  "version": "3.0.18",
   "publisher": "adamwojcikit",
   "author": {
     "name": "Adam"
