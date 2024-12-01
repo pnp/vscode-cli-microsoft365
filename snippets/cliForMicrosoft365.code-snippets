@@ -2231,31 +2231,31 @@
       "m365 pp card remove"
     ]
   },
-  "pp chatbot get": {
+  "pp copilot get": {
     "body": [
-      "m365 pp chatbot get --environmentName $1"
+      "m365 pp copilot get "
     ],
-    "description": "Get information about the specified chatbot",
+    "description": "Get information about the specified copilot",
     "prefix": [
-      "m365 pp chatbot get"
+      "m365 pp copilot get"
     ]
   },
-  "pp chatbot list": {
+  "pp copilot list": {
     "body": [
-      "m365 pp chatbot list --environmentName $1"
+      "m365 pp copilot list "
     ],
-    "description": "Lists Microsoft Power Platform chatbot in the specified Power Platform environment",
+    "description": "Lists Microsoft Power Platform copilots in the specified Power Platform environment",
     "prefix": [
-      "m365 pp chatbot list"
+      "m365 pp copilot list"
     ]
   },
-  "pp chatbot remove": {
+  "pp copilot remove": {
     "body": [
-      "m365 pp chatbot remove --environmentName $1"
+      "m365 pp copilot remove "
     ],
-    "description": "Removes the specified chatbot",
+    "description": "Removes the specified copilot",
     "prefix": [
-      "m365 pp chatbot remove"
+      "m365 pp copilot remove"
     ]
   },
   "pp dataverse table get": {
@@ -5982,6 +5982,15 @@
     "description": "Retrieves the list of unstructured document processing models",
     "prefix": [
       "m365 spp model list"
+    ]
+  },
+  "spp model remove": {
+    "body": [
+      "m365 spp model remove --siteUrl $1"
+    ],
+    "description": "Deletes a document understanding model",
+    "prefix": [
+      "m365 spp model remove"
     ]
   },
   "status": {

@@ -1226,19 +1226,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/card/card-remove"
     },
     {
-      "name": "pp chatbot get",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/chatbot/chatbot-get.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/chatbot/chatbot-get"
+      "name": "pp copilot get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/copilot/copilot-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/copilot/copilot-get"
     },
     {
-      "name": "pp chatbot list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/chatbot/chatbot-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/chatbot/chatbot-list"
+      "name": "pp copilot list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/copilot/copilot-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/copilot/copilot-list"
     },
     {
-      "name": "pp chatbot remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/chatbot/chatbot-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/chatbot/chatbot-remove"
+      "name": "pp copilot remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/copilot/copilot-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/copilot/copilot-remove"
     },
     {
       "name": "pp dataverse table get",
@@ -3294,6 +3294,11 @@
       "name": "spp model list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/model/model-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/model/model-list"
+    },
+    {
+      "name": "spp model remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/model/model-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/model/model-remove"
     },
     {
       "name": "teams app install",
