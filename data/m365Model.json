@@ -531,6 +531,21 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/policy/policy-list"
     },
     {
+      "name": "entra roledefinition get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/roledefinition/roledefinition-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-get"
+    },
+    {
+      "name": "entra roledefinition list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/roledefinition/roledefinition-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-list"
+    },
+    {
+      "name": "entra roledefinition remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/roledefinition/roledefinition-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-remove"
+    },
+    {
       "name": "entra siteclassification disable",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/siteclassification/siteclassification-disable.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/siteclassification/siteclassification-disable"
@@ -3684,6 +3699,11 @@
       "name": "tenant people profilecardproperty set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-profilecardproperty-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-profilecardproperty-set"
+    },
+    {
+      "name": "tenant people pronouns get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-pronouns-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-pronouns-get"
     },
     {
       "name": "tenant report activeusercounts",
