@@ -1481,6 +1481,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/skype/report/report-activityuserdetail"
     },
     {
+      "name": "spe container get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-get"
+    },
+    {
       "name": "spe container list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-list"
@@ -3071,6 +3076,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-commandset-set"
     },
     {
+      "name": "spo tenant homesite list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-homesite-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-homesite-list"
+    },
+    {
       "name": "spo tenant recyclebinitem list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-recyclebinitem-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-recyclebinitem-list"
@@ -3304,6 +3314,11 @@
       "name": "spp contentcenter list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/contentcenter/contentcenter-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/contentcenter/contentcenter-list"
+    },
+    {
+      "name": "spp model get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/model/model-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/model/model-get"
     },
     {
       "name": "spp model list",
