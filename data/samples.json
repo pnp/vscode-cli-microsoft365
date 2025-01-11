@@ -4276,6 +4276,34 @@
       "source": "cli"
     },
     {
+      "title": "CLI - Remove OAuth2 permission grants in a specific enterprise application (or service principal) in Entra ID",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/entra-remove-oauth2-permission-grants",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/entra-remove-oauth2-permission-grants/index.mdx",
+      "description": "Find and remove all OAuth2 permission grants that have been assigned to a specific enterprise application (or service principal).",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/entra-remove-oauth2-permission-grants/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Tobias Maestrini",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/69770609?v=4"
+        }
+      ],
+      "tags": [
+        "entra",
+        "oauth2",
+        "permissions",
+        "grants",
+        "admin"
+      ],
+      "createDate": "2024-12-25",
+      "source": "cli"
+    },
+    {
       "title": "CLI - Replace a user's membership in selected Microsoft 365 Groups or Teams",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/replace-membership-of-selected-groups",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/replace-membership-of-selected-groups/index.mdx",

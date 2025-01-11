@@ -521,6 +521,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/pim/pim-role-assignment-list"
     },
     {
+      "name": "entra pim role assignment remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/pim/pim-role-assignment-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/pim/pim-role-assignment-remove"
+    },
+    {
       "name": "entra pim role request list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/pim/pim-role-request-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/pim/pim-role-request-list"
@@ -654,6 +659,11 @@
       "name": "entra user signin list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-signin-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-signin-list"
+    },
+    {
+      "name": "exo approleassignment add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/exo/approleassignment/approleassignment-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/exo/approleassignment/approleassignment-add"
     },
     {
       "name": "external connection add",
@@ -1359,6 +1369,11 @@
       "name": "pp tenant settings set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/tenant/tenant-settings-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/tenant/tenant-settings-set"
+    },
+    {
+      "name": "pp website get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/website/website-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/website/website-get"
     },
     {
       "name": "purview auditlog list",
@@ -2229,6 +2244,11 @@
       "name": "spo list contenttype remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-contenttype-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-contenttype-remove"
+    },
+    {
+      "name": "spo list defaultvalue list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-defaultvalue-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-defaultvalue-list"
     },
     {
       "name": "spo list get",
