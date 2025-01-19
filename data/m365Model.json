@@ -536,6 +536,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/policy/policy-list"
     },
     {
+      "name": "entra roledefinition add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/roledefinition/roledefinition-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-add"
+    },
+    {
       "name": "entra roledefinition get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/roledefinition/roledefinition-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-get"
@@ -549,6 +554,11 @@
       "name": "entra roledefinition remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/roledefinition/roledefinition-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-remove"
+    },
+    {
+      "name": "entra roledefinition set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/roledefinition/roledefinition-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-set"
     },
     {
       "name": "entra siteclassification disable",
@@ -909,6 +919,11 @@
       "name": "outlook mail send",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/mail/mail-send.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send"
+    },
+    {
+      "name": "outlook mailbox settings set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/mailbox/mailbox-settings-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mailbox/mailbox-settings-set"
     },
     {
       "name": "outlook message get",
@@ -3739,6 +3754,11 @@
       "name": "tenant people pronouns get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-pronouns-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-pronouns-get"
+    },
+    {
+      "name": "tenant people pronouns set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/people/people-pronouns-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/people/people-pronouns-set"
     },
     {
       "name": "tenant report activeusercounts",

@@ -971,6 +971,15 @@
       "m365 entra policy list"
     ]
   },
+  "entra roledefinition add": {
+    "body": [
+      "m365 entra roledefinition add --displayName $1 --allowedResourceActions $2"
+    ],
+    "description": "Creates a custom Microsoft Entra ID role definition",
+    "prefix": [
+      "m365 entra roledefinition add"
+    ]
+  },
   "entra roledefinition get": {
     "body": [
       "m365 entra roledefinition get "
@@ -996,6 +1005,15 @@
     "description": "Removes a custom Microsoft Entra role definition",
     "prefix": [
       "m365 entra roledefinition remove"
+    ]
+  },
+  "entra roledefinition set": {
+    "body": [
+      "m365 entra roledefinition set "
+    ],
+    "description": "Updates a custom Microsoft Entra ID role definition",
+    "prefix": [
+      "m365 entra roledefinition set"
     ]
   },
   "entra siteclassification disable": {
@@ -1662,6 +1680,15 @@
     "description": "Sends an email",
     "prefix": [
       "m365 outlook mail send"
+    ]
+  },
+  "outlook mailbox settings set": {
+    "body": [
+      "m365 outlook mailbox settings set "
+    ],
+    "description": "Updates user mailbox settings",
+    "prefix": [
+      "m365 outlook mailbox settings set"
     ]
   },
   "outlook message get": {
@@ -6792,6 +6819,15 @@
     "description": "Retrieves information about pronouns settings for an organization",
     "prefix": [
       "m365 tenant people pronouns get"
+    ]
+  },
+  "tenant people pronouns set": {
+    "body": [
+      "m365 tenant people pronouns set --enabled $1"
+    ],
+    "description": "Manage pronouns settings for an organization",
+    "prefix": [
+      "m365 tenant people pronouns set"
     ]
   },
   "tenant report activeusercounts": {
