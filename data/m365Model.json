@@ -561,6 +561,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-set"
     },
     {
+      "name": "entra rolepermission list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/rolepermission/rolepermission-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/rolepermission/rolepermission-list"
+    },
+    {
       "name": "entra siteclassification disable",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/siteclassification/siteclassification-disable.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/siteclassification/siteclassification-disable"
@@ -1511,6 +1516,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/skype/report/report-activityuserdetail"
     },
     {
+      "name": "spe container activate",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-activate.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-activate"
+    },
+    {
       "name": "spe container get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-get"
@@ -2261,9 +2271,24 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-contenttype-remove"
     },
     {
+      "name": "spo list defaultvalue clear",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-defaultvalue-clear.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-defaultvalue-clear"
+    },
+    {
       "name": "spo list defaultvalue list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-defaultvalue-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-defaultvalue-list"
+    },
+    {
+      "name": "spo list defaultvalue remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-defaultvalue-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-defaultvalue-remove"
+    },
+    {
+      "name": "spo list defaultvalue set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-defaultvalue-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-defaultvalue-set"
     },
     {
       "name": "spo list get",
@@ -3789,6 +3814,11 @@
       "name": "tenant report servicesusercounts",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/report/report-servicesusercounts.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/report/report-servicesusercounts"
+    },
+    {
+      "name": "tenant report settings set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/report/report-settings-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/report/report-settings-set"
     },
     {
       "name": "tenant security alerts list",
