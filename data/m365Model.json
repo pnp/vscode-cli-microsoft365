@@ -536,6 +536,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/policy/policy-list"
     },
     {
+      "name": "entra resourcenamespace list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/resourcenamespace/resourcenamespace-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/resourcenamespace/resourcenamespace-list"
+    },
+    {
       "name": "entra roledefinition add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/roledefinition/roledefinition-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/roledefinition/roledefinition-add"
@@ -3814,6 +3819,11 @@
       "name": "tenant report servicesusercounts",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/report/report-servicesusercounts.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/report/report-servicesusercounts"
+    },
+    {
+      "name": "tenant report settings get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/tenant/report/report-settings-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/tenant/report/report-settings-get"
     },
     {
       "name": "tenant report settings set",
