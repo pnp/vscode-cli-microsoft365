@@ -671,6 +671,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-remove"
     },
     {
+      "name": "entra user session revoke",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-session-revoke.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-session-revoke"
+    },
+    {
       "name": "entra user set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/user/user-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/user/user-set"
@@ -929,6 +934,11 @@
       "name": "outlook mail send",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/mail/mail-send.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-send"
+    },
+    {
+      "name": "outlook mailbox settings get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/mailbox/mailbox-settings-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mailbox/mailbox-settings-get"
     },
     {
       "name": "outlook mailbox settings set",

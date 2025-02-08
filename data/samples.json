@@ -4304,6 +4304,36 @@
       "source": "cli"
     },
     {
+      "title": "Finding Obsolete Microsoft 365 Groups with PowerShell",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/find-obsolete-m365-groups",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/find-obsolete-m365-groups/index.mdx",
+      "description": "Understand to what extent the Microsoft 365 groups in your tenant are being used or even not.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/find-obsolete-m365-groups/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Tobias Maestrini",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/69770609?v=4"
+        }
+      ],
+      "tags": [
+        "libraries",
+        "group mailbox",
+        "governance",
+        "m365 groups",
+        "teams",
+        "usage",
+        "insights"
+      ],
+      "createDate": "2024-08-14",
+      "source": "cli"
+    },
+    {
       "title": "CLI - Replace a user's membership in selected Microsoft 365 Groups or Teams",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/replace-membership-of-selected-groups",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/replace-membership-of-selected-groups/index.mdx",
