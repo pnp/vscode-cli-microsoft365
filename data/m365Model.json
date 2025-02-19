@@ -2186,6 +2186,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/homesite/homesite-get"
     },
     {
+      "name": "spo homesite list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/homesite/homesite-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/homesite/homesite-list"
+    },
+    {
       "name": "spo homesite remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/homesite/homesite-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/homesite/homesite-remove"
@@ -3149,11 +3154,6 @@
       "name": "spo tenant commandset set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-commandset-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-commandset-set"
-    },
-    {
-      "name": "spo tenant homesite list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-homesite-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-homesite-list"
     },
     {
       "name": "spo tenant recyclebinitem list",
