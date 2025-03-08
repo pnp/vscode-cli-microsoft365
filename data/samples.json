@@ -4334,6 +4334,32 @@
       "source": "cli"
     },
     {
+      "title": "CLI - Check what users assigned to a specific role are allowed to do in a tenant",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/read-role-permissions",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/read-role-permissions/index.mdx",
+      "description": "This script can be used to review what users assigned to a specific role are allowed to do in a Microsoft 365 tenant",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/read-role-permissions/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Martin Macháček",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/7744844?v=4"
+        }
+      ],
+      "tags": [
+        "roles",
+        "role permissions",
+        "RBAC"
+      ],
+      "createDate": "2025-02-20",
+      "source": "cli"
+    },
+    {
       "title": "CLI - Replace a user's membership in selected Microsoft 365 Groups or Teams",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/entra/replace-membership-of-selected-groups",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/entra/replace-membership-of-selected-groups/index.mdx",
@@ -5984,6 +6010,31 @@
         "sites"
       ],
       "createDate": "2020-09-06",
+      "source": "cli"
+    },
+    {
+      "title": "Remove SharePoint page header",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/remove-page-header",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-page-header/index.mdx",
+      "description": "The script removes a page header from a SharePoint page.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/remove-page-header/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Michał Kornet",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/17220108?v=4"
+        }
+      ],
+      "tags": [
+        "spo",
+        "page"
+      ],
+      "createDate": "2025-03-04",
       "source": "cli"
     },
     {

@@ -846,6 +846,21 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/changelog/changelog-list"
     },
     {
+      "name": "graph directoryextension add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/directoryextension/directoryextension-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/directoryextension/directoryextension-add"
+    },
+    {
+      "name": "graph directoryextension get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/directoryextension/directoryextension-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/directoryextension/directoryextension-get"
+    },
+    {
+      "name": "graph directoryextension remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/directoryextension/directoryextension-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/directoryextension/directoryextension-remove"
+    },
+    {
       "name": "graph schemaextension add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/schemaextension/schemaextension-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/schemaextension/schemaextension-add"
@@ -2699,6 +2714,11 @@
       "name": "spo page section list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/page/page-section-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-section-list"
+    },
+    {
+      "name": "spo page section remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/page/page-section-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-section-remove"
     },
     {
       "name": "spo page set",

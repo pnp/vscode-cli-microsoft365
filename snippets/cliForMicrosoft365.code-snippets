@@ -1529,6 +1529,33 @@
       "m365 graph changelog list "
     ]
   },
+  "graph directoryextension add": {
+    "description": "Creates a new directory extension",
+    "prefix": [
+      "m365 graph directoryextension add"
+    ],
+    "body": [
+      "m365 graph directoryextension add --name $1 --dataType $2 --targetObjects $3"
+    ]
+  },
+  "graph directoryextension get": {
+    "description": "Retrieves the definition of a directory extension",
+    "prefix": [
+      "m365 graph directoryextension get"
+    ],
+    "body": [
+      "m365 graph directoryextension get "
+    ]
+  },
+  "graph directoryextension remove": {
+    "description": "Removes a directory extension",
+    "prefix": [
+      "m365 graph directoryextension remove"
+    ],
+    "body": [
+      "m365 graph directoryextension remove "
+    ]
+  },
   "graph schemaextension add": {
     "description": "Creates a Microsoft Graph schema extension",
     "prefix": [
@@ -4920,6 +4947,15 @@
     ],
     "body": [
       "m365 spo page section list --webUrl $1 --pageName $2"
+    ]
+  },
+  "spo page section remove": {
+    "description": "Removes the specified section from a modern page",
+    "prefix": [
+      "m365 spo page section remove"
+    ],
+    "body": [
+      "m365 spo page section remove --webUrl $1 --pageName $2 --section $3"
     ]
   },
   "spo page set": {
