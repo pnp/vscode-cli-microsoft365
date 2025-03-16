@@ -3976,9 +3976,19 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-set"
     },
     {
+      "name": "viva engage community user add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-user-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-user-add"
+    },
+    {
       "name": "viva engage community user list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-user-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-user-list"
+    },
+    {
+      "name": "viva engage community user remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-community-user-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-community-user-remove"
     },
     {
       "name": "viva engage group list",
