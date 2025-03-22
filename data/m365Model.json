@@ -2196,6 +2196,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/hidedefaultthemes/hidedefaultthemes-set"
     },
     {
+      "name": "spo homesite add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/homesite/homesite-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/homesite/homesite-add"
+    },
+    {
       "name": "spo homesite get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/homesite/homesite-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/homesite/homesite-get"
