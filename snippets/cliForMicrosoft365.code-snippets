@@ -4013,6 +4013,15 @@
       "m365 spo hidedefaultthemes set"
     ]
   },
+  "spo homesite add": {
+    "body": [
+      "m365 spo homesite add --url $1"
+    ],
+    "description": "Adds a home site",
+    "prefix": [
+      "m365 spo homesite add"
+    ]
+  },
   "spo homesite get": {
     "body": [
       "m365 spo homesite get "
