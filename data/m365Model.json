@@ -861,6 +861,26 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/directoryextension/directoryextension-remove"
     },
     {
+      "name": "graph openextension add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/openextension/openextension-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/openextension/openextension-add"
+    },
+    {
+      "name": "graph openextension get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/openextension/openextension-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/openextension/openextension-get"
+    },
+    {
+      "name": "graph openextension list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/openextension/openextension-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/openextension/openextension-list"
+    },
+    {
+      "name": "graph openextension remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/openextension/openextension-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/openextension/openextension-remove"
+    },
+    {
       "name": "graph schemaextension add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/schemaextension/schemaextension-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/schemaextension/schemaextension-add"
