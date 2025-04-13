@@ -4624,6 +4624,31 @@
       "source": "cli"
     },
     {
+      "title": "CLI - Parent flows report",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/flow/search-parent-flows",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/flow/search-parent-flows/index.mdx",
+      "description": "This script creates a report of all parent flows that invoke a defined child flow.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/flow/search-parent-flows/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Michał Kornet",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/17220108?v=4"
+        }
+      ],
+      "tags": [
+        "flows",
+        "reports"
+      ],
+      "createDate": "2025-03-16",
+      "source": "cli"
+    },
+    {
       "title": "Authenticate with and call the Microsoft Graph",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/graph/authenticate-call-graph",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/graph/authenticate-call-graph/index.mdx",
