@@ -537,7 +537,7 @@
     "prefix": [
       "m365 entra group member add"
     ],
-    "description": "Adds a member to a Microsoft Entra ID group"
+    "description": "Adds members to a Microsoft Entra group"
   },
   "entra group member list": {
     "body": [
@@ -547,6 +547,15 @@
       "m365 entra group member list"
     ],
     "description": "Lists members of a specific Entra group"
+  },
+  "entra group member remove": {
+    "body": [
+      "m365 entra group member remove "
+    ],
+    "prefix": [
+      "m365 entra group member remove"
+    ],
+    "description": "Removes members from a Microsoft Entra group"
   },
   "entra group member set": {
     "body": [
