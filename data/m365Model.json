@@ -301,6 +301,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-member-list"
     },
     {
+      "name": "entra group member remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-member-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-member-remove"
+    },
+    {
       "name": "entra group member set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/group/group-member-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/group/group-member-set"
