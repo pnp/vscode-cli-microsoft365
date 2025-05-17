@@ -1586,6 +1586,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-list"
     },
     {
+      "name": "spe container permission list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-permission-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-permission-list"
+    },
+    {
       "name": "spe containertype add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/containertype/containertype-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/containertype/containertype-add"
