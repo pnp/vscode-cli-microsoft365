@@ -36,6 +36,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/booking/business/business-list"
     },
     {
+      "name": "cli app reconsent",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/cli/app/app-reconsent.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/app/app-reconsent"
+    },
+    {
       "name": "cli completion clink update",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/cli/completion/completion-clink-update.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/completion/completion-clink-update"
@@ -511,6 +516,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/oauth2grant/oauth2grant-set"
     },
     {
+      "name": "entra organization list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/organization/organization-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/organization/organization-list"
+    },
+    {
       "name": "entra pim role assignment add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/pim/pim-role-assignment-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/pim/pim-role-assignment-add"
@@ -861,6 +871,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/directoryextension/directoryextension-get"
     },
     {
+      "name": "graph directoryextension list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/directoryextension/directoryextension-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/directoryextension/directoryextension-list"
+    },
+    {
       "name": "graph directoryextension remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/directoryextension/directoryextension-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/directoryextension/directoryextension-remove"
@@ -884,6 +899,11 @@
       "name": "graph openextension remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/openextension/openextension-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/openextension/openextension-remove"
+    },
+    {
+      "name": "graph openextension set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/graph/openextension/openextension-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/graph/openextension/openextension-set"
     },
     {
       "name": "graph schemaextension add",
@@ -1576,6 +1596,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-activate"
     },
     {
+      "name": "spe container add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-add"
+    },
+    {
       "name": "spe container get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-get"
@@ -1591,6 +1616,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-permission-list"
     },
     {
+      "name": "spe container recyclebinitem list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-recyclebinitem-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-recyclebinitem-list"
+    },
+    {
+      "name": "spe container remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-remove"
+    },
+    {
       "name": "spe containertype add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/containertype/containertype-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/containertype/containertype-add"
@@ -1604,6 +1639,11 @@
       "name": "spe containertype list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/containertype/containertype-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/containertype/containertype-list"
+    },
+    {
+      "name": "spe containertype remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/containertype/containertype-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/containertype/containertype-remove"
     },
     {
       "name": "spfx package generate",
