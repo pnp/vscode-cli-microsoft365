@@ -3486,6 +3486,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/contentcenter/contentcenter-list"
     },
     {
+      "name": "spp model apply",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/model/model-apply.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/model/model-apply"
+    },
+    {
       "name": "spp model get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/model/model-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/model/model-get"
