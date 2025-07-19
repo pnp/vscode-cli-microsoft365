@@ -2741,6 +2741,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-control-list"
     },
     {
+      "name": "spo page control remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/page/page-control-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-control-remove"
+    },
+    {
       "name": "spo page control set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/page/page-control-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-control-set"

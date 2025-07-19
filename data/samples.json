@@ -254,6 +254,36 @@
       "source": "script-samples"
     },
     {
+      "title": "Copilot Studio assets automation",
+      "url": "https://pnp.github.io/script-samples/copilot-studio-assets-automation/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/copilot-studio-assets-automation/README.md",
+      "description": "Script prompt/import/export of embeddings, actions, prompt libraries.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/copilot-studio-assets-automation/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://github.com/ValerasNarbutas.png"
+        }
+      ],
+      "tags": [
+        "Copilot Studio",
+        "Automation",
+        "Embeddings",
+        "Actions",
+        "Prompt Libraries",
+        "Graph PowerShell",
+        "CLI for Microsoft 365"
+      ],
+      "createDate": "2025-07-16",
+      "source": "script-samples"
+    },
+    {
       "title": "Create Modern Sites as alternative primary language",
       "url": "https://pnp.github.io/script-samples/create-comm-sites-specific-locale/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/create-comm-sites-specific-locale/README.md",
@@ -4060,6 +4090,43 @@
         "m365 logout"
       ],
       "createDate": "2021-03-20",
+      "source": "script-samples"
+    },
+    {
+      "title": "Tenant Governance Compliance Report",
+      "url": "https://pnp.github.io/script-samples/tenant-governance-compliance-report/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/tenant-governance-compliance-report/README.md",
+      "description": "Auto-collect stale Teams/sites, label stats, Purview scans using CLI for M365, Graph PowerShell, and Azure CLI",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/tenant-governance-compliance-report/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://github.com/ValerasNarbutas.png"
+        }
+      ],
+      "tags": [
+        "m365 spo site list",
+        "m365 teams team list",
+        "Get-MgInformationProtectionPolicyLabel",
+        "Get-MgSecurityAlert",
+        "az purview account list",
+        "az purview scan list",
+        "az group list",
+        "Connect-MgGraph",
+        "Disconnect-MgGraph",
+        "governance",
+        "compliance",
+        "purview",
+        "sensitivity labels",
+        "stale content"
+      ],
+      "createDate": "2025-07-16",
       "source": "script-samples"
     },
     {
