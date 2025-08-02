@@ -1936,6 +1936,33 @@
       "source": "script-samples"
     },
     {
+      "title": "Create a basic SharePoint FAQ page",
+      "url": "https://pnp.github.io/script-samples/spo-create-sharepoint-faq-page/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-sharepoint-faq-page/README.md",
+      "description": "This script creates a basic FAQ page in SharePoint using a CSV file as the source.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-sharepoint-faq-page/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Michał Kornet",
+          "pictureUrl": "https://github.com/mkm17.png"
+        }
+      ],
+      "tags": [
+        "m365 login",
+        "m365 status",
+        "m365 spo page section add",
+        "m365 logout"
+      ],
+      "createDate": "2025-07-27",
+      "source": "script-samples"
+    },
+    {
       "title": "Create SharePoint Groups in Bulk using CSV file",
       "url": "https://pnp.github.io/script-samples/spo-create-sharepoint-groups-bulk-csv/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-create-sharepoint-groups-bulk-csv/README.md",
