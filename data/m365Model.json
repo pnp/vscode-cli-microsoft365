@@ -36,6 +36,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/booking/business/business-list"
     },
     {
+      "name": "cli app add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/cli/app/app-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/app/app-add"
+    },
+    {
       "name": "cli app reconsent",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/cli/app/app-reconsent.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/cli/app/app-reconsent"
@@ -1624,6 +1629,11 @@
       "name": "spe container recyclebinitem list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-recyclebinitem-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-recyclebinitem-list"
+    },
+    {
+      "name": "spe container recyclebinitem restore",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-recyclebinitem-restore.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-recyclebinitem-restore"
     },
     {
       "name": "spe container remove",
@@ -3549,6 +3559,11 @@
       "name": "teams cache remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/cache/cache-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/cache/cache-remove"
+    },
+    {
+      "name": "teams callrecord list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/callrecord/callrecord-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/callrecord/callrecord-list"
     },
     {
       "name": "teams channel add",
