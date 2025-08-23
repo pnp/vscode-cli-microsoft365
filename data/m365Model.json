@@ -4191,6 +4191,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-report-groupsactivitygroupcounts"
     },
     {
+      "name": "viva engage role list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-role-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-role-list"
+    },
+    {
+      "name": "viva engage role member list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-role-member-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-role-member-list"
+    },
+    {
       "name": "viva engage search",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-search.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-search"
