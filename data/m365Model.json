@@ -2091,6 +2091,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-get"
     },
     {
+      "name": "spo file version keep",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-keep.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-keep"
+    },
+    {
       "name": "spo file version list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-list"

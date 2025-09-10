@@ -3815,6 +3815,15 @@
       "m365 spo file version get --webUrl $1 --label $2"
     ]
   },
+  "spo file version keep": {
+    "description": "Ensure that a specific file version will never expire",
+    "prefix": [
+      "m365 spo file version keep"
+    ],
+    "body": [
+      "m365 spo file version keep --webUrl $1 --label $2"
+    ]
+  },
   "spo file version list": {
     "description": "Retrieves all versions of a file",
     "prefix": [
