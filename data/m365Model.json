@@ -2986,6 +2986,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-apppermission-set"
     },
     {
+      "name": "spo site archive",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-archive.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-archive"
+    },
+    {
       "name": "spo site chrome set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-chrome-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-chrome-set"
@@ -3031,6 +3036,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-inplacerecordsmanagement-set"
     },
     {
+      "name": "spo site list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-list"
+    },
+    {
+      "name": "spo site membership list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-membership-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-membership-list"
+    },
+    {
       "name": "spo site recyclebinitem clear",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-recyclebinitem-clear.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-recyclebinitem-clear"
@@ -3061,6 +3076,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-remove"
     },
     {
+      "name": "spo site rename",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-rename.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-rename"
+    },
+    {
       "name": "spo site set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-set"
@@ -3069,6 +3089,11 @@
       "name": "spo site sharingpermission set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-sharingpermission-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-sharingpermission-set"
+    },
+    {
+      "name": "spo site unarchive",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-unarchive.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-unarchive"
     },
     {
       "name": "spo sitedesign add",
@@ -3269,31 +3294,6 @@
       "name": "spo tenant settings set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-settings-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-settings-set"
-    },
-    {
-      "name": "spo tenant site archive",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-archive.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-archive"
-    },
-    {
-      "name": "spo tenant site list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-list"
-    },
-    {
-      "name": "spo tenant site membership list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-membership-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-membership-list"
-    },
-    {
-      "name": "spo tenant site rename",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-rename.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-rename"
-    },
-    {
-      "name": "spo tenant site unarchive",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-unarchive.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-unarchive"
     },
     {
       "name": "spo term add",
