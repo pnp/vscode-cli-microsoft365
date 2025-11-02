@@ -2946,11 +2946,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-admin-remove"
     },
     {
-      "name": "spo site alert list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-alert-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-alert-list"
-    },
-    {
       "name": "spo site appcatalog add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-appcatalog-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-appcatalog-add"
@@ -3404,6 +3399,16 @@
       "name": "spo web add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-add"
+    },
+    {
+      "name": "spo web alert list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-alert-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-alert-list"
+    },
+    {
+      "name": "spo web alert remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-alert-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-alert-remove"
     },
     {
       "name": "spo web clientsidewebpart list",
