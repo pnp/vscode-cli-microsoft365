@@ -3096,6 +3096,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-unarchive"
     },
     {
+      "name": "spo site versionpolicy get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/site/site-versionpolicy-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/site/site-versionpolicy-get"
+    },
+    {
       "name": "spo sitedesign add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/sitedesign/sitedesign-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/sitedesign/sitedesign-add"
