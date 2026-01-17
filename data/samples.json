@@ -1579,6 +1579,41 @@
       "source": "script-samples"
     },
     {
+      "title": "Apply site theme",
+      "url": "https://pnp.github.io/script-samples/spo-apply-site-theme/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-site-theme/README.md",
+      "description": "Apply a theme to a specific SharePoint site without adding a tenant theme that would be available for all sites.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-apply-site-theme/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Aimery Thomas",
+          "pictureUrl": "https://github.com/a1mery.png"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Get-PnPAccessToken",
+        "Invoke-RestMethod",
+        "Disconnect-PnPOnline",
+        "m365 login",
+        "m365 spo theme set",
+        "m365 spo theme apply",
+        "m365 spo theme remove"
+      ],
+      "createDate": "2025-10-22",
+      "source": "script-samples"
+    },
+    {
       "title": "Associate Multiple Site Collections to Hub Site",
       "url": "https://pnp.github.io/script-samples/spo-associate-multiple-sites-to-hub/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/README.md",
@@ -1732,6 +1767,40 @@
         "m365 spo field remove"
       ],
       "createDate": "2021-10-15",
+      "source": "script-samples"
+    },
+    {
+      "title": "Compare files hash from two different SharePoint tenants",
+      "url": "https://pnp.github.io/script-samples/spo-compare-files/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-compare-files/README.md",
+      "description": "This script will compare files hash from two different SharePoint tenants",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-compare-files/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Valeras Narbutas",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/16476453?v=4"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "hash",
+        "Connect-PnPOnline",
+        "Get-PnPFile",
+        "Get-FileHash",
+        "m365 login",
+        "m365 spo file get",
+        "m365 connection use"
+      ],
+      "createDate": "2023-01-27",
       "source": "script-samples"
     },
     {
