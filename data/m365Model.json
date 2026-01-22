@@ -1606,6 +1606,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-recyclebinitem-list"
     },
     {
+      "name": "spe container recyclebinitem remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-recyclebinitem-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-recyclebinitem-remove"
+    },
+    {
       "name": "spe container recyclebinitem restore",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-recyclebinitem-restore.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-recyclebinitem-restore"
