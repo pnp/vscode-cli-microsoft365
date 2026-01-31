@@ -3501,6 +3501,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/spo-set"
     },
     {
+      "name": "spp autofillcolumn set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/autofillcolumn/autofillcolumn-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/autofillcolumn/autofillcolumn-set"
+    },
+    {
       "name": "spp contentcenter list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spp/contentcenter/contentcenter-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spp/contentcenter/contentcenter-list"
