@@ -1776,6 +1776,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/apppage/apppage-set"
     },
     {
+      "name": "spo brandcenter settings list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/brandcenter/brandcenter-settings-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/brandcenter/brandcenter-settings-list"
+    },
+    {
       "name": "spo cdn get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/cdn/cdn-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/cdn/cdn-get"
@@ -3564,6 +3569,11 @@
       "name": "teams cache remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/cache/cache-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/cache/cache-remove"
+    },
+    {
+      "name": "teams callrecord get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/teams/callrecord/callrecord-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/teams/callrecord/callrecord-get"
     },
     {
       "name": "teams callrecord list",
