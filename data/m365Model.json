@@ -1006,6 +1006,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/onenote/page/page-list"
     },
     {
+      "name": "outlook calendargroup list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-list"
+    },
+    {
       "name": "outlook mail searchfolder add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/mail/mail-searchfolder-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/mail/mail-searchfolder-add"
@@ -1684,6 +1689,11 @@
       "name": "spfx doctor",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spfx/spfx-doctor.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spfx/spfx-doctor"
+    },
+    {
+      "name": "spo agent add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/agent/agent-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/agent/agent-add"
     },
     {
       "name": "spo app add",
@@ -3316,6 +3326,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-settings-set"
     },
     {
+      "name": "spo tenant site get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/tenant/tenant-site-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/tenant/tenant-site-get"
+    },
+    {
       "name": "spo term add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/term/term-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/term/term-add"
@@ -4199,6 +4214,11 @@
       "name": "viva engage role member list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-role-member-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-role-member-list"
+    },
+    {
+      "name": "viva engage role member remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-role-member-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-role-member-remove"
     },
     {
       "name": "viva engage search",
