@@ -1835,6 +1835,15 @@
     ],
     "description": "Retrieve a list of OneNote pages."
   },
+  "outlook calendargroup list": {
+    "prefix": [
+      "m365 outlook calendargroup list"
+    ],
+    "body": [
+      "m365 outlook calendargroup list "
+    ],
+    "description": "Retrieves calendar groups for a user."
+  },
   "outlook mail searchfolder add": {
     "prefix": [
       "m365 outlook mail searchfolder add"
@@ -3085,6 +3094,15 @@
       "m365 spfx project upgrade "
     ],
     "description": "Upgrades SharePoint Framework project to the specified version"
+  },
+  "spo agent add": {
+    "prefix": [
+      "m365 spo agent add"
+    ],
+    "body": [
+      "m365 spo agent add --webUrl $1 --name $2 --agentInstructions $3 --welcomeMessage $4 --sourceUrls $5 --description $6"
+    ],
+    "description": "Adds a new SharePoint agent"
   },
   "spo app add": {
     "prefix": [
@@ -6047,6 +6065,15 @@
     ],
     "description": "Sets tenant global settings"
   },
+  "spo tenant site get": {
+    "prefix": [
+      "m365 spo tenant site get"
+    ],
+    "body": [
+      "m365 spo tenant site get "
+    ],
+    "description": "Retrieves the tenant site information"
+  },
   "spo term add": {
     "prefix": [
       "m365 spo term add"
@@ -7630,6 +7657,15 @@
       "m365 viva engage role member list "
     ],
     "description": "Lists all users assigned to a Viva Engage role"
+  },
+  "viva engage role member remove": {
+    "prefix": [
+      "m365 viva engage role member remove"
+    ],
+    "body": [
+      "m365 viva engage role member remove "
+    ],
+    "description": "Removes a user from a Viva Engage role"
   },
   "viva engage search": {
     "prefix": [
