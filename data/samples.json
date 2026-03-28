@@ -3857,6 +3857,41 @@
       "source": "script-samples"
     },
     {
+      "title": "M365 Consultant's Script Kit",
+      "url": "https://pnp.github.io/script-samples/spo-time-based-file-reports/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-time-based-file-reports/README.md",
+      "description": "These scripts are part of the Microsoft 365 Consultant's Script kit - OneDrive, SharePoint and Custom Site Scans",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-time-based-file-reports/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Nick Brattoli",
+          "pictureUrl": "https://github.com/nbrattoli.png"
+        },
+        {
+          "name": "Adam Wójcik",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/58668583?v=4"
+        }
+      ],
+      "tags": [
+        "Add-PnPFile",
+        "Connect-PnPOnline",
+        "Get-PnPList",
+        "Get-PnPListItem",
+        "m365 login",
+        "m365 spo site list",
+        "m365 spo list list",
+        "m365 spo file list"
+      ],
+      "createDate": "2024-03-25",
+      "source": "script-samples"
+    },
+    {
       "title": "Update SharePoint Page Banner Image",
       "url": "https://pnp.github.io/script-samples/spo-update-page-banner-image/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-update-page-banner-image/README.md",
