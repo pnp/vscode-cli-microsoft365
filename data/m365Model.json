@@ -1006,9 +1006,39 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/onenote/page/page-list"
     },
     {
+      "name": "outlook calendar add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendar/calendar-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-add"
+    },
+    {
+      "name": "outlook calendar get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendar/calendar-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-get"
+    },
+    {
+      "name": "outlook calendar remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendar/calendar-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-remove"
+    },
+    {
       "name": "outlook calendargroup list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-list"
+    },
+    {
+      "name": "outlook event cancel",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/event/event-cancel.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/event/event-cancel"
+    },
+    {
+      "name": "event list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/event/event-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/event/event-list"
+    },
+    {
+      "name": "outlook event remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/event/event-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/event/event-remove"
     },
     {
       "name": "outlook mail searchfolder add",
