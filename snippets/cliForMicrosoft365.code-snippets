@@ -1880,6 +1880,15 @@
     ],
     "description": "Retrieves calendar groups for a user."
   },
+  "outlook calendargroup set": {
+    "body": [
+      "m365 outlook calendargroup set --newName $1"
+    ],
+    "prefix": [
+      "m365 outlook calendargroup set"
+    ],
+    "description": "Updates a calendar group for a user."
+  },
   "outlook event cancel": {
     "body": [
       "m365 outlook event cancel --id $1"
