@@ -1021,6 +1021,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-remove"
     },
     {
+      "name": "outlook calendar set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendar/calendar-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-set"
+    },
+    {
+      "name": "outlook calendargroup get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-get"
+    },
+    {
       "name": "outlook calendargroup list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-list"
@@ -1821,6 +1831,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/apppage/apppage-set"
     },
     {
+      "name": "spo brandcenter colors list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/brandcenter/brandcenter-colors-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/brandcenter/brandcenter-colors-list"
+    },
+    {
       "name": "spo brandcenter settings list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/brandcenter/brandcenter-settings-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/brandcenter/brandcenter-settings-list"
@@ -2029,6 +2044,11 @@
       "name": "spo file add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-add"
+    },
+    {
+      "name": "spo file archive",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-archive.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-archive"
     },
     {
       "name": "spo file checkin",
