@@ -1036,6 +1036,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-list"
     },
     {
+      "name": "outlook calendargroup remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-remove"
+    },
+    {
       "name": "outlook calendargroup set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-set"
