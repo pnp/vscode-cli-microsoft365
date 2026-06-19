@@ -1016,6 +1016,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-get"
     },
     {
+      "name": "outlook calendar list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendar/calendar-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-list"
+    },
+    {
       "name": "outlook calendar remove",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendar/calendar-remove.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-remove"
@@ -2171,6 +2176,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-sharinglink-set"
     },
     {
+      "name": "spo file unarchive",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-unarchive.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-unarchive"
+    },
+    {
       "name": "spo file version clear",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/file/file-version-clear.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/file/file-version-clear"
@@ -2204,6 +2214,11 @@
       "name": "spo folder add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-add"
+    },
+    {
+      "name": "spo folder archive",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-archive.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-archive"
     },
     {
       "name": "spo folder copy",
@@ -2539,6 +2554,11 @@
       "name": "spo list sensitivitylabel ensure",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-sensitivitylabel-ensure.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-sensitivitylabel-ensure"
+    },
+    {
+      "name": "spo list sensitivitylabel remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/list/list-sensitivitylabel-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/list/list-sensitivitylabel-remove"
     },
     {
       "name": "spo list set",
@@ -4279,6 +4299,11 @@
       "name": "viva engage role list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-role-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-role-list"
+    },
+    {
+      "name": "viva engage role member add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/viva/engage/engage-role-member-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/viva/engage/engage-role-member-add"
     },
     {
       "name": "viva engage role member list",
