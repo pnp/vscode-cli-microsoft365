@@ -45,7 +45,7 @@
     ]
   },
   "booking business get": {
-    "description": "Retrieve the specified Microsoft Bookings business.",
+    "description": "Retrieves the specified Microsoft Bookings business.",
     "body": [
       "m365 booking business get "
     ],
@@ -63,7 +63,7 @@
     ]
   },
   "cli app add": {
-    "description": "Create a new app registration to use for the CLI for Microsoft 365",
+    "description": "Creates a new app registration to use for the CLI for Microsoft 365",
     "body": [
       "m365 cli app add "
     ],
@@ -72,7 +72,7 @@
     ]
   },
   "cli app reconsent": {
-    "description": "Reconsent all permission scopes used in CLI for Microsoft 365",
+    "description": "Reconsents all permission scopes used in CLI for Microsoft 365",
     "body": [
       "m365 cli app reconsent "
     ],
@@ -135,7 +135,7 @@
     ]
   },
   "cli config list": {
-    "description": "List all self-set CLI for Microsoft 365 configurations",
+    "description": "Lists all self-set CLI for Microsoft 365 configurations",
     "body": [
       "m365 cli config list "
     ],
@@ -162,7 +162,7 @@
     ]
   },
   "cli consent": {
-    "description": "Consent additional permissions for the Microsoft Entra application used by the CLI for Microsoft 365",
+    "description": "Consents additional permissions for the Microsoft Entra application used by the CLI for Microsoft 365",
     "body": [
       "m365 cli consent --service $1"
     ],
@@ -189,7 +189,7 @@
     ]
   },
   "connection list": {
-    "description": "Show the list of available connections",
+    "description": "Shows the list of available connections",
     "body": [
       "m365 connection list "
     ],
@@ -198,7 +198,7 @@
     ]
   },
   "connection remove": {
-    "description": "Remove the specified connection",
+    "description": "Removes the specified connection",
     "body": [
       "m365 connection remove --name $1"
     ],
@@ -207,7 +207,7 @@
     ]
   },
   "connection set": {
-    "description": "Rename the specified connection",
+    "description": "Renames the specified connection",
     "body": [
       "m365 connection set --name $1"
     ],
@@ -216,7 +216,7 @@
     ]
   },
   "connection use": {
-    "description": "Activate the specified Microsoft 365 tenant connection",
+    "description": "Activates the specified Microsoft 365 tenant connection",
     "body": [
       "m365 connection use "
     ],
@@ -234,7 +234,7 @@
     ]
   },
   "context option list": {
-    "description": "List all options added to the context",
+    "description": "Lists all options added to the context",
     "body": [
       "m365 context option list "
     ],
@@ -306,7 +306,7 @@
     ]
   },
   "entra administrativeunit member add": {
-    "description": "Add a member (user, group, or device) to an administrative unit",
+    "description": "Adds a member (user, group, or device) to an administrative unit",
     "body": [
       "m365 entra administrativeunit member add "
     ],
@@ -774,7 +774,7 @@
     ]
   },
   "entra m365group report activitycounts": {
-    "description": "Get the number of group activities across group workloads",
+    "description": "Gets the number of group activities across group workloads",
     "body": [
       "m365 entra m365group report activitycounts --period $1"
     ],
@@ -783,7 +783,7 @@
     ]
   },
   "entra m365group report activitydetail": {
-    "description": "Get details about Microsoft 365 Groups activity by group.",
+    "description": "Gets details about Microsoft 365 Groups activity by group.",
     "body": [
       "m365 entra m365group report activitydetail "
     ],
@@ -792,7 +792,7 @@
     ]
   },
   "entra m365group report activityfilecounts": {
-    "description": "Get the total number of files and how many of them were active across all group sites associated with an Microsoft 365 Group",
+    "description": "Gets the total number of files and how many of them were active across all group sites associated with a Microsoft 365 Group",
     "body": [
       "m365 entra m365group report activityfilecounts --period $1"
     ],
@@ -801,7 +801,7 @@
     ]
   },
   "entra m365group report activitygroupcounts": {
-    "description": "Get the daily total number of groups and how many of them were active based on email conversations, Viva Engage posts, and SharePoint file activities.",
+    "description": "Gets the daily total number of groups and how many of them were active based on email conversations, Viva Engage posts, and SharePoint file activities.",
     "body": [
       "m365 entra m365group report activitygroupcounts --period $1"
     ],
@@ -810,7 +810,7 @@
     ]
   },
   "entra m365group report activitystorage": {
-    "description": "Get the total storage used across all group mailboxes and group sites",
+    "description": "Gets the total storage used across all group mailboxes and group sites",
     "body": [
       "m365 entra m365group report activitystorage --period $1"
     ],
@@ -909,7 +909,7 @@
     ]
   },
   "entra oauth2grant add": {
-    "description": "Grant the specified service principal OAuth2 permissions to the specified resource",
+    "description": "Grants the specified service principal OAuth2 permissions to the specified resource",
     "body": [
       "m365 entra oauth2grant add --clientId $1 --resourceId $2 --scope $3"
     ],
@@ -927,7 +927,7 @@
     ]
   },
   "entra oauth2grant remove": {
-    "description": "Remove specified service principal OAuth2 permissions",
+    "description": "Removes specified service principal OAuth2 permissions",
     "body": [
       "m365 entra oauth2grant remove --grantId $1"
     ],
@@ -936,7 +936,7 @@
     ]
   },
   "entra oauth2grant set": {
-    "description": "Update OAuth2 permissions for the service principal",
+    "description": "Updates OAuth2 permissions for the service principal",
     "body": [
       "m365 entra oauth2grant set --grantId $1 --scope $2"
     ],
@@ -963,7 +963,7 @@
     ]
   },
   "entra pim role assignment add": {
-    "description": "Request activation of an Entra role assignment for a user or group.",
+    "description": "Requests activation of an Entra role assignment for a user or group.",
     "body": [
       "m365 entra pim role assignment add "
     ],
@@ -990,7 +990,7 @@
     ]
   },
   "entra pim role assignment remove": {
-    "description": "Request deactivation of an Entra role assignment for a user or group.",
+    "description": "Requests deactivation of an Entra role assignment for a user or group.",
     "body": [
       "m365 entra pim role assignment remove "
     ],
@@ -1017,7 +1017,7 @@
     ]
   },
   "entra resourcenamespace list": {
-    "description": "Get a list of the RBAC resource namespaces and their properties",
+    "description": "Gets a list of the RBAC resource namespaces and their properties",
     "body": [
       "m365 entra resourcenamespace list "
     ],
@@ -1026,7 +1026,7 @@
     ]
   },
   "entra roleassignment add": {
-    "description": "Assign a Entra ID role to a user and specify the scope for which the user has been granted access",
+    "description": "Assigns a Entra ID role to a user and specifies the scope for which the user has been granted access",
     "body": [
       "m365 entra roleassignment add --principal $1"
     ],
@@ -1152,7 +1152,7 @@
     ]
   },
   "entra user guest add": {
-    "description": "Invite an external user to the organization",
+    "description": "Invites an external user to the organization",
     "body": [
       "m365 entra user guest add --emailAddress $1"
     ],
@@ -1206,7 +1206,7 @@
     ]
   },
   "entra user password validate": {
-    "description": "Check a user's password against the organization's password validation policy",
+    "description": "Checks a user's password against the organization's password validation policy",
     "body": [
       "m365 entra user password validate --password $1"
     ],
@@ -1314,7 +1314,7 @@
     ]
   },
   "external connection add": {
-    "description": "Add a new external connection",
+    "description": "Adds a new external connection",
     "body": [
       "m365 external connection add "
     ],
@@ -1332,7 +1332,7 @@
     ]
   },
   "external connection get": {
-    "description": "Allow the administrator to get a specific external connection",
+    "description": "Allows the administrator to get a specific external connection",
     "body": [
       "m365 external connection get "
     ],
@@ -1350,7 +1350,7 @@
     ]
   },
   "external connection remove": {
-    "description": "Allow the administrator to remove a specific external connection",
+    "description": "Allows the administrator to remove a specific external connection",
     "body": [
       "m365 external connection remove "
     ],
@@ -1359,7 +1359,7 @@
     ]
   },
   "external connection schema add": {
-    "description": "Allow the administrator to add a schema to a specific external connection",
+    "description": "Allows the administrator to add a schema to a specific external connection",
     "body": [
       "m365 external connection schema add "
     ],
@@ -1692,7 +1692,7 @@
     ]
   },
   "graph schemaextension list": {
-    "description": "Get a list of schemaExtension objects created in the current tenant, that can be InDevelopment, Available, or Deprecated.",
+    "description": "Gets a list of schemaExtension objects created in the current tenant, that can be InDevelopment, Available, or Deprecated.",
     "body": [
       "m365 graph schemaextension list "
     ],
@@ -1728,7 +1728,7 @@
     ]
   },
   "login": {
-    "description": "Log in to Microsoft 365",
+    "description": "Logs in to Microsoft 365",
     "body": [
       "m365 login "
     ],
@@ -1737,7 +1737,7 @@
     ]
   },
   "logout": {
-    "description": "Log out from Microsoft 365",
+    "description": "Logs out from Microsoft 365",
     "body": [
       "m365 logout "
     ],
@@ -1818,7 +1818,7 @@
     ]
   },
   "onenote notebook add": {
-    "description": "Create a new OneNote notebook.",
+    "description": "Creates a new OneNote notebook.",
     "body": [
       "m365 onenote notebook add --name $1 -- $2"
     ],
@@ -1827,7 +1827,7 @@
     ]
   },
   "onenote notebook list": {
-    "description": "Retrieve a list of notebooks.",
+    "description": "Retrieves a list of notebooks.",
     "body": [
       "m365 onenote notebook list "
     ],
@@ -1836,7 +1836,7 @@
     ]
   },
   "onenote page list": {
-    "description": "Retrieve a list of OneNote pages.",
+    "description": "Retrieves a list of OneNote pages.",
     "body": [
       "m365 onenote page list "
     ],
@@ -1890,7 +1890,7 @@
     ]
   },
   "outlook calendargroup get": {
-    "description": "Retrieves a calendar group for a user.",
+    "description": "Retrieves a calendar group for a user",
     "body": [
       "m365 outlook calendargroup get "
     ],
@@ -1962,7 +1962,7 @@
     ]
   },
   "outlook mailbox settings get": {
-    "description": "Get the user's mailbox settings",
+    "description": "Gets the user's mailbox settings",
     "body": [
       "m365 outlook mailbox settings get "
     ],
@@ -2115,7 +2115,7 @@
     ]
   },
   "outlook room list": {
-    "description": "Get a collection of all available rooms",
+    "description": "Gets a collection of all available rooms",
     "body": [
       "m365 outlook room list "
     ],
@@ -2124,7 +2124,7 @@
     ]
   },
   "outlook roomlist list": {
-    "description": "Get a collection of available roomlists",
+    "description": "Gets a collection of available roomlists",
     "body": [
       "m365 outlook roomlist list "
     ],
@@ -2304,7 +2304,7 @@
     ]
   },
   "planner plan get": {
-    "description": "Retrieve information about the specified plan",
+    "description": "Retrieves information about the specified plan",
     "body": [
       "m365 planner plan get "
     ],
@@ -2349,7 +2349,7 @@
     ]
   },
   "planner roster get": {
-    "description": "Gets information about the specific Microsoft Planner Roster.",
+    "description": "Gets information about the specific Microsoft Planner Roster",
     "body": [
       "m365 planner roster get --id $1"
     ],
@@ -2448,7 +2448,7 @@
     ]
   },
   "planner task get": {
-    "description": "Retrieve the specified planner task",
+    "description": "Retrieves the specified planner task",
     "body": [
       "m365 planner task get "
     ],
@@ -2475,7 +2475,7 @@
     ]
   },
   "planner task reference list": {
-    "description": "Retrieve the references associated to a Planner task.",
+    "description": "Retrieves the references associated to a Planner task",
     "body": [
       "m365 planner task reference list --taskId $1"
     ],
@@ -2529,7 +2529,7 @@
     ]
   },
   "pp aibuildermodel get": {
-    "description": "Gets a specific AI builder models in the specified Power Platform environment",
+    "description": "Gets a specific AI builder model in the specified Power Platform environment",
     "body": [
       "m365 pp aibuildermodel get --environmentName $1"
     ],
@@ -2538,7 +2538,7 @@
     ]
   },
   "pp aibuildermodel list": {
-    "description": "List available AI builder models in the specified Power Platform environment",
+    "description": "Lists available AI builder models in the specified Power Platform environment",
     "body": [
       "m365 pp aibuildermodel list --environmentName $1"
     ],
@@ -2556,7 +2556,7 @@
     ]
   },
   "pp copilot get": {
-    "description": "Get information about the specified copilot",
+    "description": "Gets information about the specified copilot",
     "body": [
       "m365 pp copilot get --environmentName $1"
     ],
@@ -2583,7 +2583,7 @@
     ]
   },
   "pp dataverse table get": {
-    "description": "List a dataverse table in a given environment",
+    "description": "Gets a dataverse table in a given environment",
     "body": [
       "m365 pp dataverse table get --environmentName $1 --name $2"
     ],
@@ -2646,7 +2646,7 @@
     ]
   },
   "pp gateway get": {
-    "description": "Get information about the specified gateway",
+    "description": "Gets information about the specified gateway",
     "body": [
       "m365 pp gateway get --id $1"
     ],
@@ -2664,7 +2664,7 @@
     ]
   },
   "pp managementapp add": {
-    "description": "Register management application for Power Platform",
+    "description": "Registers management application for Power Platform",
     "body": [
       "m365 pp managementapp add "
     ],
@@ -2718,7 +2718,7 @@
     ]
   },
   "pp solution publisher get": {
-    "description": "Get information about the specified publisher in a given environment.",
+    "description": "Gets information about the specified publisher in a given environment.",
     "body": [
       "m365 pp solution publisher get --environmentName $1"
     ],
@@ -2781,7 +2781,7 @@
     ]
   },
   "purview auditlog list": {
-    "description": "List audit logs within your tenant",
+    "description": "Lists audit logs within your tenant",
     "body": [
       "m365 purview auditlog list --contentType $1"
     ],
@@ -2790,7 +2790,7 @@
     ]
   },
   "purview retentionevent add": {
-    "description": "Create a retention event",
+    "description": "Creates a retention event",
     "body": [
       "m365 purview retentionevent add --displayName $1"
     ],
@@ -2799,7 +2799,7 @@
     ]
   },
   "purview retentionevent get": {
-    "description": "Get a retention event",
+    "description": "Gets a retention event",
     "body": [
       "m365 purview retentionevent get --id $1"
     ],
@@ -2808,7 +2808,7 @@
     ]
   },
   "purview retentionevent list": {
-    "description": "Get a list of retention events",
+    "description": "Gets a list of retention events",
     "body": [
       "m365 purview retentionevent list "
     ],
@@ -2817,7 +2817,7 @@
     ]
   },
   "purview retentionevent remove": {
-    "description": "Delete a retention event",
+    "description": "Deletes a retention event",
     "body": [
       "m365 purview retentionevent remove --id $1"
     ],
@@ -2826,7 +2826,7 @@
     ]
   },
   "purview retentioneventtype add": {
-    "description": "Create a retention event type",
+    "description": "Creates a retention event type",
     "body": [
       "m365 purview retentioneventtype add --displayName $1"
     ],
@@ -2835,7 +2835,7 @@
     ]
   },
   "purview retentioneventtype get": {
-    "description": "Get a retention event type",
+    "description": "Gets a retention event type",
     "body": [
       "m365 purview retentioneventtype get --id $1"
     ],
@@ -2844,7 +2844,7 @@
     ]
   },
   "purview retentioneventtype list": {
-    "description": "Get a list of retention event types",
+    "description": "Gets a list of retention event types",
     "body": [
       "m365 purview retentioneventtype list "
     ],
@@ -2853,7 +2853,7 @@
     ]
   },
   "purview retentioneventtype remove": {
-    "description": "Delete a retention event type",
+    "description": "Deletes a retention event type",
     "body": [
       "m365 purview retentioneventtype remove --id $1"
     ],
@@ -2862,7 +2862,7 @@
     ]
   },
   "purview retentioneventtype set": {
-    "description": "Update a retention event type",
+    "description": "Updates a retention event type",
     "body": [
       "m365 purview retentioneventtype set --id $1"
     ],
@@ -2871,7 +2871,7 @@
     ]
   },
   "purview retentionlabel add": {
-    "description": "Create a retention label",
+    "description": "Creates a retention label",
     "body": [
       "m365 purview retentionlabel add --displayName $1 --behaviorDuringRetentionPeriod $2 --actionAfterRetentionPeriod $3 --retentionDuration $4"
     ],
@@ -2880,7 +2880,7 @@
     ]
   },
   "purview retentionlabel get": {
-    "description": "Get a retention label",
+    "description": "Gets a retention label",
     "body": [
       "m365 purview retentionlabel get --id $1"
     ],
@@ -2889,7 +2889,7 @@
     ]
   },
   "purview retentionlabel list": {
-    "description": "Get a list of retention labels",
+    "description": "Gets a list of retention labels",
     "body": [
       "m365 purview retentionlabel list "
     ],
@@ -2898,7 +2898,7 @@
     ]
   },
   "purview retentionlabel remove": {
-    "description": "Delete a retention label",
+    "description": "Deletes a retention label",
     "body": [
       "m365 purview retentionlabel remove --id $1"
     ],
@@ -2907,7 +2907,7 @@
     ]
   },
   "purview retentionlabel set": {
-    "description": "Update a retention label",
+    "description": "Updates a retention label",
     "body": [
       "m365 purview retentionlabel set --id $1"
     ],
@@ -2916,7 +2916,7 @@
     ]
   },
   "purview sensitivitylabel get": {
-    "description": "Retrieve the specified sensitivity label",
+    "description": "Retrieves the specified sensitivity label",
     "body": [
       "m365 purview sensitivitylabel get --id $1"
     ],
@@ -2925,7 +2925,7 @@
     ]
   },
   "purview sensitivitylabel list": {
-    "description": "Get a list of sensitivity labels",
+    "description": "Gets a list of sensitivity labels",
     "body": [
       "m365 purview sensitivitylabel list "
     ],
@@ -2934,7 +2934,7 @@
     ]
   },
   "purview sensitivitylabel policysettings list": {
-    "description": "Get a list of policy settings for a sensitivity label.",
+    "description": "Gets a list of policy settings for a sensitivity label.",
     "body": [
       "m365 purview sensitivitylabel policysettings list "
     ],
@@ -2943,7 +2943,7 @@
     ]
   },
   "purview threatassessment add": {
-    "description": "Create a threat assessment",
+    "description": "Creates a threat assessment",
     "body": [
       "m365 purview threatassessment add --type $1 --expectedAssessment $2 --category $3"
     ],
@@ -2952,7 +2952,7 @@
     ]
   },
   "purview threatassessment get": {
-    "description": "Get a threat assessment",
+    "description": "Gets a threat assessment",
     "body": [
       "m365 purview threatassessment get --id $1"
     ],
@@ -2961,7 +2961,7 @@
     ]
   },
   "purview threatassessment list": {
-    "description": "Get a list of threat assessments",
+    "description": "Gets a list of threat assessments",
     "body": [
       "m365 purview threatassessment list "
     ],
@@ -3114,7 +3114,7 @@
     ]
   },
   "spe containertype remove": {
-    "description": "Remove a specific container type",
+    "description": "Removes a specific container type",
     "body": [
       "m365 spe containertype remove "
     ],
@@ -3177,7 +3177,7 @@
     ]
   },
   "spfx project permissions grant": {
-    "description": "Grant API permissions defined in the current SPFx project",
+    "description": "Grants API permissions defined in the current SPFx project",
     "body": [
       "m365 spfx project permissions grant "
     ],
@@ -3249,7 +3249,7 @@
     ]
   },
   "spo app instance list": {
-    "description": "Retrieve apps installed in a site",
+    "description": "Retrieves apps installed in a site",
     "body": [
       "m365 spo app instance list --siteUrl $1"
     ],
@@ -3312,7 +3312,7 @@
     ]
   },
   "spo applicationcustomizer add": {
-    "description": "Add an Application Customizer to a site",
+    "description": "Adds an Application Customizer to a site",
     "body": [
       "m365 spo applicationcustomizer add --title $1 --webUrl $2 --clientSideComponentId $3"
     ],
@@ -3321,7 +3321,7 @@
     ]
   },
   "spo applicationcustomizer get": {
-    "description": "Get an application customizer that is added to a site",
+    "description": "Gets an application customizer that is added to a site",
     "body": [
       "m365 spo applicationcustomizer get --webUrl $1"
     ],
@@ -3330,7 +3330,7 @@
     ]
   },
   "spo applicationcustomizer list": {
-    "description": "Get a list of application customizers that are added to a site",
+    "description": "Gets a list of application customizers that are added to a site",
     "body": [
       "m365 spo applicationcustomizer list --webUrl $1"
     ],
@@ -3393,7 +3393,7 @@
     ]
   },
   "spo cdn get": {
-    "description": "View current status of the specified Microsoft 365 CDN",
+    "description": "Views current status of the specified Microsoft 365 CDN",
     "body": [
       "m365 spo cdn get "
     ],
@@ -3411,7 +3411,7 @@
     ]
   },
   "spo cdn origin list": {
-    "description": "List CDN origins settings for the current SharePoint Online tenant",
+    "description": "Lists CDN origins settings for the current SharePoint Online tenant",
     "body": [
       "m365 spo cdn origin list "
     ],
@@ -3447,7 +3447,7 @@
     ]
   },
   "spo cdn set": {
-    "description": "Enable or disable the specified Microsoft 365 CDN",
+    "description": "Enables or disables the specified Microsoft 365 CDN",
     "body": [
       "m365 spo cdn set --enabled $1"
     ],
@@ -3456,7 +3456,7 @@
     ]
   },
   "spo commandset add": {
-    "description": "Add a ListView Command Set to a site.",
+    "description": "Adds a ListView Command Set to a site.",
     "body": [
       "m365 spo commandset add --title $1 --webUrl $2 --listType $3 --clientSideComponentId $4"
     ],
@@ -3465,7 +3465,7 @@
     ]
   },
   "spo commandset get": {
-    "description": "Get a ListView Command Set that is added to a site",
+    "description": "Gets a ListView Command Set that is added to a site",
     "body": [
       "m365 spo commandset get --webUrl $1"
     ],
@@ -3474,7 +3474,7 @@
     ]
   },
   "spo commandset list": {
-    "description": "Get a list of ListView Command Sets that are added to a site",
+    "description": "Gets a list of ListView Command Sets that are added to a site",
     "body": [
       "m365 spo commandset list --webUrl $1"
     ],
@@ -3483,7 +3483,7 @@
     ]
   },
   "spo commandset remove": {
-    "description": "Remove a ListView Command Set that is added to a site",
+    "description": "Removes a ListView Command Set that is added to a site",
     "body": [
       "m365 spo commandset remove --webUrl $1"
     ],
@@ -3852,7 +3852,7 @@
     ]
   },
   "spo file retentionlabel ensure": {
-    "description": "Apply a retention label to a file",
+    "description": "Applies a retention label to a file",
     "body": [
       "m365 spo file retentionlabel ensure --webUrl $1 --name $2"
     ],
@@ -3996,7 +3996,7 @@
     ]
   },
   "spo file version keep": {
-    "description": "Ensure that a specific file version will never expire",
+    "description": "Ensures that a specific file version will never expire",
     "body": [
       "m365 spo file version keep --webUrl $1 --label $2"
     ],
@@ -4095,7 +4095,7 @@
     ]
   },
   "spo folder retentionlabel ensure": {
-    "description": "Apply a retention label to a folder",
+    "description": "Applies a retention label to a folder",
     "body": [
       "m365 spo folder retentionlabel ensure --webUrl $1 --name $2"
     ],
@@ -4248,7 +4248,7 @@
     ]
   },
   "spo group member add": {
-    "description": "Add members to a SharePoint Group",
+    "description": "Adds members to a SharePoint Group",
     "body": [
       "m365 spo group member add --webUrl $1"
     ],
@@ -4257,7 +4257,7 @@
     ]
   },
   "spo group member list": {
-    "description": "List the members of a SharePoint Group",
+    "description": "Lists the members of a SharePoint Group",
     "body": [
       "m365 spo group member list --webUrl $1"
     ],
@@ -4356,7 +4356,7 @@
     ]
   },
   "spo hubsite connect": {
-    "description": "Connect a hub site to a parent hub site",
+    "description": "Connects a hub site to a parent hub site",
     "body": [
       "m365 spo hubsite connect "
     ],
@@ -4365,7 +4365,7 @@
     ]
   },
   "spo hubsite data get": {
-    "description": "Get hub site data for the specified site",
+    "description": "Gets hub site data for the specified site",
     "body": [
       "m365 spo hubsite data get --webUrl $1"
     ],
@@ -4374,7 +4374,7 @@
     ]
   },
   "spo hubsite disconnect": {
-    "description": "Disconnect a hub site from its parent hub site",
+    "description": "Disconnects a hub site from its parent hub site",
     "body": [
       "m365 spo hubsite disconnect "
     ],
@@ -4959,7 +4959,7 @@
     ]
   },
   "spo listitem retentionlabel ensure": {
-    "description": "Apply a retention label to a list item",
+    "description": "Applies a retention label to a list item",
     "body": [
       "m365 spo listitem retentionlabel ensure --webUrl $1 --listItemId $2"
     ],
@@ -4995,7 +4995,7 @@
     ]
   },
   "spo listitem roleinheritance break": {
-    "description": "Break inheritance of list item.",
+    "description": "Breaks inheritance of list item.",
     "body": [
       "m365 spo listitem roleinheritance break --webUrl $1 --listItemId $2"
     ],
@@ -5031,7 +5031,7 @@
     ]
   },
   "spo navigation node get": {
-    "description": "Gets information about a specific navigation node.",
+    "description": "Gets information about a specific navigation node",
     "body": [
       "m365 spo navigation node get --webUrl $1"
     ],
@@ -5076,7 +5076,7 @@
     ]
   },
   "spo orgassetslibrary list": {
-    "description": "List all libraries that are assigned as asset library",
+    "description": "Lists all libraries that are assigned as asset library",
     "body": [
       "m365 spo orgassetslibrary list "
     ],
@@ -5139,7 +5139,7 @@
     ]
   },
   "spo page column get": {
-    "description": "Get information about a specific column of a modern page",
+    "description": "Gets information about a specific column of a modern page",
     "body": [
       "m365 spo page column get --webUrl $1 --pageName $2 --section $3 --column $4"
     ],
@@ -5256,7 +5256,7 @@
     ]
   },
   "spo page section get": {
-    "description": "Get information about the specified modern page section",
+    "description": "Gets information about the specified modern page section",
     "body": [
       "m365 spo page section get --webUrl $1 --pageName $2 --sectionId $3"
     ],
@@ -5265,7 +5265,7 @@
     ]
   },
   "spo page section list": {
-    "description": "List sections in the specific modern page",
+    "description": "Lists sections in the specific modern page",
     "body": [
       "m365 spo page section list --webUrl $1 --pageName $2"
     ],
@@ -5391,7 +5391,7 @@
     ]
   },
   "spo report siteusagefilecounts": {
-    "description": "Get the total number of files across all sites and the number of active files",
+    "description": "Gets the total number of files across all sites and the number of active files",
     "body": [
       "m365 spo report siteusagefilecounts --period $1"
     ],
@@ -5526,7 +5526,7 @@
     ]
   },
   "spo serviceprincipal set": {
-    "description": "Enable or disable the service principal",
+    "description": "Enables or disables the service principal",
     "body": [
       "m365 spo serviceprincipal set "
     ],
@@ -5544,7 +5544,7 @@
     ]
   },
   "spo site accessrequest setting set": {
-    "description": "Update access requests for a specific site",
+    "description": "Updates access requests for a specific site",
     "body": [
       "m365 spo site accessrequest setting set --siteUrl $1"
     ],
@@ -5598,7 +5598,7 @@
     ]
   },
   "spo site appcatalog list": {
-    "description": "List all site collection app catalogs within the tenant",
+    "description": "Lists all site collection app catalogs within the tenant",
     "body": [
       "m365 spo site appcatalog list "
     ],
@@ -5625,7 +5625,7 @@
     ]
   },
   "spo site apppermission get": {
-    "description": "Get a specific application permissions for the site",
+    "description": "Gets a specific application permissions for the site",
     "body": [
       "m365 spo site apppermission get --siteUrl $1 --id $2"
     ],
@@ -5670,7 +5670,7 @@
     ]
   },
   "spo site chrome set": {
-    "description": "Set the chrome header and footer for the specified site",
+    "description": "Sets the chrome header and footer for the specified site",
     "body": [
       "m365 spo site chrome set --siteUrl $1"
     ],
@@ -6039,7 +6039,7 @@
     ]
   },
   "spo storageentity get": {
-    "description": "Get details for the specified tenant property",
+    "description": "Gets details for the specified tenant property",
     "body": [
       "m365 spo storageentity get --key $1"
     ],
@@ -6093,7 +6093,7 @@
     ]
   },
   "spo tenant applicationcustomizer add": {
-    "description": "Add an Application Customizer as a tenant-wide extension",
+    "description": "Adds an Application Customizer as a tenant-wide extension",
     "body": [
       "m365 spo tenant applicationcustomizer add --title $1 --clientSideComponentId $2"
     ],
@@ -6102,7 +6102,7 @@
     ]
   },
   "spo tenant applicationcustomizer get": {
-    "description": "Get an application customizer that is installed tenant-wide",
+    "description": "Gets an application customizer that is installed tenant-wide",
     "body": [
       "m365 spo tenant applicationcustomizer get "
     ],
@@ -6138,7 +6138,7 @@
     ]
   },
   "spo tenant commandset add": {
-    "description": "Add a ListView Command Set as a tenant-wide extension",
+    "description": "Adds a ListView Command Set as a tenant-wide extension",
     "body": [
       "m365 spo tenant commandset add --title $1 --listType $2 --clientSideComponentId $3"
     ],
@@ -6147,7 +6147,7 @@
     ]
   },
   "spo tenant commandset get": {
-    "description": "Get a ListView Command Set that is installed tenant-wide",
+    "description": "Gets a ListView Command Set that is installed tenant-wide",
     "body": [
       "m365 spo tenant commandset get "
     ],
@@ -6354,7 +6354,7 @@
     ]
   },
   "spo theme set": {
-    "description": "Add or update a theme",
+    "description": "Adds or updates a theme",
     "body": [
       "m365 spo theme set --name $1"
     ],
@@ -6399,7 +6399,7 @@
     ]
   },
   "spo userprofile get": {
-    "description": "Get SharePoint user profile properties for the specified user",
+    "description": "Gets SharePoint user profile properties for the specified user",
     "body": [
       "m365 spo userprofile get --userName $1"
     ],
@@ -6417,7 +6417,7 @@
     ]
   },
   "spo web add": {
-    "description": "Create new subsite",
+    "description": "Creates new subsite",
     "body": [
       "m365 spo web add --title $1 --url $2 --webTemplate $3 --parentWebUrl $4"
     ],
@@ -6453,7 +6453,7 @@
     ]
   },
   "spo web get": {
-    "description": "Retrieve information about the specified site",
+    "description": "Retrieves information about the specified site",
     "body": [
       "m365 spo web get --url $1"
     ],
@@ -6489,7 +6489,7 @@
     ]
   },
   "spo web remove": {
-    "description": "Delete specified subsite",
+    "description": "Deletes specified subsite",
     "body": [
       "m365 spo web remove --url $1"
     ],
@@ -6498,7 +6498,7 @@
     ]
   },
   "spo web retentionlabel list": {
-    "description": "Get a list of retention labels that are available on a site.",
+    "description": "Gets a list of retention labels that are available on a site",
     "body": [
       "m365 spo web retentionlabel list --webUrl $1"
     ],
@@ -6525,7 +6525,7 @@
     ]
   },
   "spo web roleinheritance break": {
-    "description": "Break role inheritance of subsite",
+    "description": "Breaks role inheritance of subsite",
     "body": [
       "m365 spo web roleinheritance break --webUrl $1"
     ],
@@ -6741,7 +6741,7 @@
     ]
   },
   "teams channel member remove": {
-    "description": "Remove the specified member from the specified Microsoft Teams private or shared team channel",
+    "description": "Removes the specified member from the specified Microsoft Teams private or shared team channel",
     "body": [
       "m365 teams channel member remove "
     ],
@@ -6777,7 +6777,7 @@
     ]
   },
   "teams chat get": {
-    "description": "Get a Microsoft Teams chat conversation by id, participants or chat name.",
+    "description": "Gets a Microsoft Teams chat conversation by id, participants or chat name.",
     "body": [
       "m365 teams chat get "
     ],
@@ -6876,7 +6876,7 @@
     ]
   },
   "teams meeting add": {
-    "description": "Create a new online meeting",
+    "description": "Creates a new online meeting",
     "body": [
       "m365 teams meeting add "
     ],
@@ -6903,7 +6903,7 @@
     ]
   },
   "teams meeting get": {
-    "description": "Get specified meeting details",
+    "description": "Gets specified meeting details",
     "body": [
       "m365 teams meeting get --joinUrl $1"
     ],
@@ -6912,7 +6912,7 @@
     ]
   },
   "teams meeting list": {
-    "description": "Retrieve all online meetings for a given user or shared mailbox",
+    "description": "Retrieves all online meetings for a given user or shared mailbox",
     "body": [
       "m365 teams meeting list --startDateTime $1"
     ],
@@ -7029,7 +7029,7 @@
     ]
   },
   "teams report deviceusagedistributionusercounts": {
-    "description": "Get the number of Microsoft Teams unique users by device type.",
+    "description": "Gets the number of Microsoft Teams unique users by device type.",
     "body": [
       "m365 teams report deviceusagedistributionusercounts --period $1"
     ],
@@ -7038,7 +7038,7 @@
     ]
   },
   "teams report deviceusageusercounts": {
-    "description": "Get the number of Microsoft Teams daily unique users by device type",
+    "description": "Gets the number of Microsoft Teams daily unique users by device type",
     "body": [
       "m365 teams report deviceusageusercounts --period $1"
     ],
@@ -7056,7 +7056,7 @@
     ]
   },
   "teams report directroutingcalls": {
-    "description": "Get details about direct routing calls made within a given time period",
+    "description": "Gets details about direct routing calls made within a given time period",
     "body": [
       "m365 teams report directroutingcalls --fromDateTime $1"
     ],
@@ -7065,7 +7065,7 @@
     ]
   },
   "teams report pstncalls": {
-    "description": "Get details about PSTN calls made within a given time period",
+    "description": "Gets details about PSTN calls made within a given time period",
     "body": [
       "m365 teams report pstncalls --fromDateTime $1"
     ],
@@ -7074,7 +7074,7 @@
     ]
   },
   "teams report useractivitycounts": {
-    "description": "Get the number of Microsoft Teams activities by activity type. The activity types are team chat messages, private chat messages, calls, and meetings",
+    "description": "Gets the number of Microsoft Teams activities by activity type. The activity types are team chat messages, private chat messages, calls, and meetings",
     "body": [
       "m365 teams report useractivitycounts --period $1"
     ],
@@ -7083,7 +7083,7 @@
     ]
   },
   "teams report useractivityusercounts": {
-    "description": "Get the number of Microsoft Teams users by activity type. The activity types are number of teams chat messages, private chat messages, calls, or meetings",
+    "description": "Gets the number of Microsoft Teams users by activity type. The activity types are number of teams chat messages, private chat messages, calls, or meetings",
     "body": [
       "m365 teams report useractivityusercounts --period $1"
     ],
@@ -7092,7 +7092,7 @@
     ]
   },
   "teams report useractivityuserdetail": {
-    "description": "Get details about Microsoft Teams user activity by user",
+    "description": "Gets details about Microsoft Teams user activity by user",
     "body": [
       "m365 teams report useractivityuserdetail "
     ],
@@ -7101,7 +7101,7 @@
     ]
   },
   "teams tab add": {
-    "description": "Add a tab to the specified channel",
+    "description": "Adds a tab to the specified channel",
     "body": [
       "m365 teams tab add --teamId $1 --channelId $2 --appId $3 --appName $4 --contentUrl $5"
     ],
@@ -7146,7 +7146,7 @@
     ]
   },
   "teams team app list": {
-    "description": "List apps installed in the specified team",
+    "description": "Lists apps installed in the specified team",
     "body": [
       "m365 teams team app list "
     ],
@@ -7218,7 +7218,7 @@
     ]
   },
   "teams user app add": {
-    "description": "Install an app in the personal scope of the specified user",
+    "description": "Installs an app in the personal scope of the specified user",
     "body": [
       "m365 teams user app add "
     ],
@@ -7227,7 +7227,7 @@
     ]
   },
   "teams user app list": {
-    "description": "List the apps installed in the personal scope of the specified user",
+    "description": "Lists the apps installed in the personal scope of the specified user",
     "body": [
       "m365 teams user app list "
     ],
@@ -7236,7 +7236,7 @@
     ]
   },
   "teams user app remove": {
-    "description": "Uninstall an app from the personal scope of the specified user",
+    "description": "Uninstalls an app from the personal scope of the specified user",
     "body": [
       "m365 teams user app remove "
     ],
@@ -7245,7 +7245,7 @@
     ]
   },
   "teams user app upgrade": {
-    "description": "Upgrade an app in the personal scope of the specified user",
+    "description": "Upgrades an app in the personal scope of the specified user",
     "body": [
       "m365 teams user app upgrade "
     ],
@@ -7335,7 +7335,7 @@
     ]
   },
   "tenant people pronouns set": {
-    "description": "Manage pronouns settings for an organization",
+    "description": "Manages pronouns settings for an organization",
     "body": [
       "m365 tenant people pronouns set --enabled $1"
     ],
@@ -7362,7 +7362,7 @@
     ]
   },
   "tenant report office365activationcounts": {
-    "description": "Get the count of Microsoft 365 activations on desktops and devices",
+    "description": "Gets the count of Microsoft 365 activations on desktops and devices",
     "body": [
       "m365 tenant report office365activationcounts "
     ],
@@ -7371,7 +7371,7 @@
     ]
   },
   "tenant report office365activationsusercounts": {
-    "description": "Get the count of users that are enabled and those that have activated the Office subscription on desktop or devices or shared computers",
+    "description": "Gets the count of users that are enabled and those that have activated the Office subscription on desktop or devices or shared computers",
     "body": [
       "m365 tenant report office365activationsusercounts "
     ],
@@ -7380,7 +7380,7 @@
     ]
   },
   "tenant report office365activationsuserdetail": {
-    "description": "Get details about users who have activated Microsoft 365",
+    "description": "Gets details about users who have activated Microsoft 365",
     "body": [
       "m365 tenant report office365activationsuserdetail "
     ],
@@ -7398,7 +7398,7 @@
     ]
   },
   "tenant report settings get": {
-    "description": "Get the tenant-level settings for Microsoft 365 reports",
+    "description": "Gets the tenant-level settings for Microsoft 365 reports",
     "body": [
       "m365 tenant report settings get "
     ],
@@ -7407,7 +7407,7 @@
     ]
   },
   "tenant report settings set": {
-    "description": "Update tenant-level settings for Microsoft 365 reports",
+    "description": "Updates tenant-level settings for Microsoft 365 reports",
     "body": [
       "m365 tenant report settings set --displayConcealedNames $1"
     ],
@@ -7425,7 +7425,7 @@
     ]
   },
   "tenant serviceannouncement health get": {
-    "description": "Get the health report of a specified service for a tenant",
+    "description": "Gets the health report of a specified service for a tenant",
     "body": [
       "m365 tenant serviceannouncement health get --serviceName $1"
     ],
@@ -7542,7 +7542,7 @@
     ]
   },
   "todo task list": {
-    "description": "List tasks from a Microsoft To Do task list",
+    "description": "Lists tasks from a Microsoft To Do task list",
     "body": [
       "m365 todo task list "
     ],
@@ -7560,7 +7560,7 @@
     ]
   },
   "todo task set": {
-    "description": "Update a task in a Microsoft To Do task list",
+    "description": "Updates a task in a Microsoft To Do task list",
     "body": [
       "m365 todo task set --id $1"
     ],
@@ -7812,7 +7812,7 @@
     ]
   },
   "viva engage role member add": {
-    "description": "Assign a Viva Engage role to a user",
+    "description": "Assigns a Viva Engage role to a user",
     "body": [
       "m365 viva engage role member add "
     ],
