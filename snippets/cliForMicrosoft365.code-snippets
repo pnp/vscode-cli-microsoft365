@@ -1934,6 +1934,15 @@
       "m365 outlook event cancel"
     ]
   },
+  "outlook event get": {
+    "description": "Retrieve an event from a specific calendar of a user",
+    "body": [
+      "m365 outlook event get --id $1"
+    ],
+    "prefix": [
+      "m365 outlook event get"
+    ]
+  },
   "outlook event remove": {
     "description": "Removes an event from a calendar",
     "body": [
@@ -2778,6 +2787,24 @@
     ],
     "prefix": [
       "m365 pp website get"
+    ]
+  },
+  "pp website remove": {
+    "description": "Removes the specified Power Pages website from the list of active sites.",
+    "body": [
+      "m365 pp website remove --environmentName $1"
+    ],
+    "prefix": [
+      "m365 pp website remove"
+    ]
+  },
+  "pp website webrole list": {
+    "description": "Lists all webroles for the specified Power Pages website.",
+    "body": [
+      "m365 pp website webrole list --environmentName $1"
+    ],
+    "prefix": [
+      "m365 pp website webrole list"
     ]
   },
   "purview auditlog list": {
@@ -4338,7 +4365,7 @@
     ]
   },
   "spo homesite remove": {
-    "description": "Removes a Home Site",
+    "description": "Removes a home site",
     "body": [
       "m365 spo homesite remove --url $1"
     ],
@@ -6425,24 +6452,6 @@
       "m365 spo web add"
     ]
   },
-  "spo web alert list": {
-    "description": "Lists all SharePoint list alerts",
-    "body": [
-      "m365 spo web alert list --webUrl $1"
-    ],
-    "prefix": [
-      "m365 spo web alert list"
-    ]
-  },
-  "spo web alert remove": {
-    "description": "Removes an alert from a SharePoint list",
-    "body": [
-      "m365 spo web alert remove --webUrl $1"
-    ],
-    "prefix": [
-      "m365 spo web alert remove"
-    ]
-  },
   "spo web clientsidewebpart list": {
     "description": "Lists available client-side web parts",
     "body": [
@@ -6540,6 +6549,24 @@
     ],
     "prefix": [
       "m365 spo web roleinheritance reset"
+    ]
+  },
+  "spo web rule list": {
+    "description": "Lists all SharePoint list alerts",
+    "body": [
+      "m365 spo web rule list "
+    ],
+    "prefix": [
+      "m365 spo web rule list"
+    ]
+  },
+  "spo web rule remove": {
+    "description": "Removes an alert from a SharePoint list",
+    "body": [
+      "m365 spo web rule remove "
+    ],
+    "prefix": [
+      "m365 spo web rule remove"
     ]
   },
   "spo web set": {

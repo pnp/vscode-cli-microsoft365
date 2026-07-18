@@ -1056,6 +1056,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/event/event-cancel"
     },
     {
+      "name": "outlook event get",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/event/event-get.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/event/event-get"
+    },
+    {
       "name": "event list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/event/event-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/event/event-list"
@@ -1529,6 +1534,16 @@
       "name": "pp website get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/website/website-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/website/website-get"
+    },
+    {
+      "name": "pp website remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/website/website-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/website/website-remove"
+    },
+    {
+      "name": "pp website webrole list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/pp/website/website-webrole-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/pp/website/website-webrole-list"
     },
     {
       "name": "purview auditlog list",
@@ -3526,16 +3541,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-add"
     },
     {
-      "name": "spo web alert list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-alert-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-alert-list"
-    },
-    {
-      "name": "spo web alert remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-alert-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-alert-remove"
-    },
-    {
       "name": "spo web clientsidewebpart list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-clientsidewebpart-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-clientsidewebpart-list"
@@ -3589,6 +3594,16 @@
       "name": "spo web roleinheritance reset",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-roleinheritance-reset.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-roleinheritance-reset"
+    },
+    {
+      "name": "spo web rule list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-rule-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-rule-list"
+    },
+    {
+      "name": "spo web rule remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-rule-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-rule-remove"
     },
     {
       "name": "spo web set",

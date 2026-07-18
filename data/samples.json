@@ -521,6 +521,39 @@
       "source": "script-samples"
     },
     {
+      "title": "Get disabled or inactive user accounts",
+      "url": "https://pnp.github.io/script-samples/get-disabled-or-inactive-user-accounts/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-disabled-or-inactive-user-accounts/README.md",
+      "description": "Find the user accounts which have been disabled or are inactive, export report to CSV",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/get-disabled-or-inactive-user-accounts/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        },
+        {
+          "name": "Kasper Larsen",
+          "pictureUrl": "https://github.com/kasperbolarsen.png"
+        },
+        {
+          "name": "juandresrodca",
+          "pictureUrl": "https://github.com/juandresrodca.png"
+        }
+      ],
+      "tags": [
+        "Invoke-PnPGraphMethod,Invoke-PnPSearchQuery,Invoke-RestMethod",
+        "m365 request,m365 spo search"
+      ],
+      "createDate": "2023-10-15",
+      "source": "script-samples"
+    },
+    {
       "title": "Authenticate with and call the Microsoft Graph",
       "url": "https://pnp.github.io/script-samples/graph-call-graph/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/graph-call-graph/README.md",
