@@ -3601,16 +3601,6 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-roleinheritance-reset"
     },
     {
-      "name": "spo web rule list",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-rule-list.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-rule-list"
-    },
-    {
-      "name": "spo web rule remove",
-      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-rule-remove.mdx",
-      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-rule-remove"
-    },
-    {
       "name": "spo web set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/web/web-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/web/web-set"
