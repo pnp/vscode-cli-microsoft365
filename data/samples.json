@@ -1,6 +1,36 @@
 {
   "samples": [
     {
+      "title": "Add API permissions to an Entra app registration",
+      "url": "https://pnp.github.io/script-samples/aad-add-app-permission/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-add-app-permission/README.md",
+      "description": "Adds delegated or application API permissions to an Entra app registration using Microsoft Graph.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-add-app-permission/assets/example.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Sujin Nelladath",
+          "pictureUrl": "https://github.com/nelladath.png"
+        }
+      ],
+      "tags": [
+        "Connect-MgGraph",
+        "Invoke-MgGraphRequest",
+        "Application.ReadWrite.All",
+        "requiredResourceAccess",
+        "app registration",
+        "delegated permission",
+        "application permission"
+      ],
+      "createDate": "2026-08-30",
+      "source": "script-samples"
+    },
+    {
       "title": "Analyze users for known data breaches with have i been pwned",
       "url": "https://pnp.github.io/script-samples/aad-analyze-users-hibp/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-analyze-users-hibp/README.md",
@@ -6136,33 +6166,6 @@
         "users"
       ],
       "createDate": "2021-03-15",
-      "source": "cli"
-    },
-    {
-      "title": "List SharePoint alerts usage across the tenant",
-      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-tenant-alert-usage",
-      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-tenant-alert-usage/index.mdx",
-      "description": "Generate a tenant-wide report of legacy SharePoint Online list alerts before their retirement.",
-      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-tenant-alert-usage/assets/preview.png",
-      "type": [
-        "powershell"
-      ],
-      "tabTag": [
-        "```powershell"
-      ],
-      "authors": [
-        {
-          "name": "Saurabh Tripathi",
-          "pictureUrl": "https://avatars.githubusercontent.com/u/18114579?v=4"
-        }
-      ],
-      "tags": [
-        "reports",
-        "alerts",
-        "retirement",
-        "tenant"
-      ],
-      "createDate": "2025-10-13",
       "source": "cli"
     },
     {
