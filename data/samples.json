@@ -146,6 +146,39 @@
       "source": "script-samples"
     },
     {
+      "title": "Offboard an Entra user",
+      "url": "https://pnp.github.io/script-samples/aad-entrauser-offboarding/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-entrauser-offboarding/README.md",
+      "description": "Offboards an Entra user by removing their access and permissions.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-entrauser-offboarding/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Sujin Nelladath",
+          "pictureUrl": "https://github.com/nelladath.png"
+        }
+      ],
+      "tags": [
+        "Connect-MgGraph",
+        "Invoke-MgGraphRequest",
+        "User.ReadWrite.All",
+        "Group.ReadWrite.All",
+        "Directory.ReadWrite.All",
+        "AppRoleAssignment.ReadWrite.All",
+        "requiredResourceAccess",
+        "app registration",
+        "delegated permission",
+        "application permission"
+      ],
+      "createDate": "2026-09-10",
+      "source": "script-samples"
+    },
+    {
       "title": "Get Azure AD app permission info (delegated or application)",
       "url": "https://pnp.github.io/script-samples/aad-get-app-permission/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-get-app-permission/README.md",
