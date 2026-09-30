@@ -6202,6 +6202,33 @@
       "source": "cli"
     },
     {
+      "title": "List SharePoint rules usage across the tenant",
+      "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-tenant-alert-usage",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-tenant-alert-usage/index.mdx",
+      "description": "Generate a tenant-wide report of legacy SharePoint Online list rules before their retirement.",
+      "image": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-tenant-alert-usage/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "```powershell"
+      ],
+      "authors": [
+        {
+          "name": "Saurabh Tripathi",
+          "pictureUrl": "https://avatars.githubusercontent.com/u/18114579?v=4"
+        }
+      ],
+      "tags": [
+        "reports",
+        "rules",
+        "retirement",
+        "tenant"
+      ],
+      "createDate": "2025-10-13",
+      "source": "cli"
+    },
+    {
       "title": "CLI - List all tenant-wide extensions",
       "url": "https://pnp.github.io/cli-microsoft365/sample-scripts/spo/list-tenant-wide-extensions",
       "rawUrl": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/sample-scripts/spo/list-tenant-wide-extensions/index.mdx",
