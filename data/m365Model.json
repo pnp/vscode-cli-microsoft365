@@ -2331,6 +2331,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-sharinglink-set"
     },
     {
+      "name": "spo folder unarchive",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/folder/folder-unarchive.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/folder/folder-unarchive"
+    },
+    {
       "name": "spo group add",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/group/group-add.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/group/group-add"
