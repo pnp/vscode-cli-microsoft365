@@ -4317,6 +4317,37 @@
       "source": "script-samples"
     },
     {
+      "title": "Get All Teams App Descriptions",
+      "url": "https://pnp.github.io/script-samples/teams-list-all-app-descriptions/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-all-app-descriptions/README.md",
+      "description": "Get an list of all the app descriptions to determine if your app may clash with others during Copilot development",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-all-app-descriptions/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Paul Bullock",
+          "pictureUrl": "https://github.com/pkbullock.png"
+        },
+        {
+          "name": "Elliot Margot",
+          "pictureUrl": "https://github.com/OwnOptic.png"
+        }
+      ],
+      "tags": [
+        "Connect-PnPOnline",
+        "Invoke-PnPGraphMethod",
+        "m365 login",
+        "m365 request"
+      ],
+      "createDate": "2024-06-24",
+      "source": "script-samples"
+    },
+    {
       "title": "List guests within Teams in a tenant",
       "url": "https://pnp.github.io/script-samples/teams-list-guestusers/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/teams-list-guestusers/README.md",
