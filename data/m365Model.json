@@ -2941,6 +2941,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-text-add"
     },
     {
+      "name": "spo page unpublish",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/page/page-unpublish.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/page/page-unpublish"
+    },
+    {
       "name": "spo propertybag get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spo/propertybag/propertybag-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spo/propertybag/propertybag-get"
