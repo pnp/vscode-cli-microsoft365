@@ -63,6 +63,39 @@
       "source": "script-samples"
     },
     {
+      "title": "Restore deleted Microsoft 365 & Entra ID Security Groups",
+      "url": "https://pnp.github.io/script-samples/aad-bulk-restore-deletedgroups/README.html",
+      "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-bulk-restore-deletedgroups/README.md",
+      "description": "Restore deleted Microsoft 365 Groups and Entra ID Security Groups in bulk using Microsoft Graph PowerShell.",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-entrauser-offboarding/assets/preview.png",
+      "type": [
+        "powershell"
+      ],
+      "tabTag": [
+        "#tab/cli-m365-ps"
+      ],
+      "authors": [
+        {
+          "name": "Sujin Nelladath",
+          "pictureUrl": "https://github.com/nelladath.png"
+        }
+      ],
+      "tags": [
+        "Connect-MgGraph",
+        "Invoke-MgGraphRequest",
+        "User.ReadWrite.All",
+        "Group.ReadWrite.All",
+        "Directory.ReadWrite.All",
+        "AppRoleAssignment.ReadWrite.All",
+        "requiredResourceAccess",
+        "app registration",
+        "delegated permission",
+        "application permission"
+      ],
+      "createDate": "2026-10-10",
+      "source": "script-samples"
+    },
+    {
       "title": "Delete all Microsoft 365 groups and SharePoint sites",
       "url": "https://pnp.github.io/script-samples/aad-delete-m365-groups-and-sharepoint-sites/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-delete-m365-groups-and-sharepoint-sites/README.md",
@@ -3159,6 +3192,10 @@
         "#tab/cli-m365-ps"
       ],
       "authors": [
+        {
+          "name": "Josiah Opiyo",
+          "pictureUrl": "https://github.com/ojopiyo.png"
+        },
         {
           "name": "Ganesh Sanap",
           "pictureUrl": "https://avatars.githubusercontent.com/u/25476310?v=4"
