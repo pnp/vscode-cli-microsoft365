@@ -196,6 +196,16 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/administrativeunit/administrativeunit-roleassignment-add"
     },
     {
+      "name": "entra agent blueprint list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/agent/agent-blueprint-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/agent/agent-blueprint-list"
+    },
+    {
+      "name": "entra agent blueprintprincipal list",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/agent/agent-blueprintprincipal-list.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/agent/agent-blueprintprincipal-list"
+    },
+    {
       "name": "entra agent list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/entra/agent/agent-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/entra/agent/agent-list"
@@ -1036,6 +1046,11 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendar/calendar-set"
     },
     {
+      "name": "outlook calendargroup add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-add"
+    },
+    {
       "name": "outlook calendargroup get",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-get.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-get"
@@ -1054,6 +1069,11 @@
       "name": "outlook calendargroup set",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/calendargroup/calendargroup-set.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/calendargroup/calendargroup-set"
+    },
+    {
+      "name": "outlook event add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/outlook/event/event-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/outlook/event/event-add"
     },
     {
       "name": "outlook event cancel",
@@ -1676,9 +1696,24 @@
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-list"
     },
     {
+      "name": "spe container permission add",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-permission-add.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-permission-add"
+    },
+    {
       "name": "spe container permission list",
       "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-permission-list.mdx",
       "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-permission-list"
+    },
+    {
+      "name": "spe container permission remove",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-permission-remove.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-permission-remove"
+    },
+    {
+      "name": "spe container permission set",
+      "url": "https://raw.githubusercontent.com/pnp/cli-microsoft365/main/docs/docs/cmd/spe/container/container-permission-set.mdx",
+      "docs": "https://pnp.github.io/cli-microsoft365/cmd/spe/container/container-permission-set"
     },
     {
       "name": "spe container recyclebinitem list",
