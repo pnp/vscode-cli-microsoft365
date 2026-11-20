@@ -67,7 +67,7 @@
       "url": "https://pnp.github.io/script-samples/aad-bulk-restore-deletedgroups/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-bulk-restore-deletedgroups/README.md",
       "description": "Restore deleted Microsoft 365 Groups and Entra ID Security Groups in bulk using Microsoft Graph PowerShell.",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-entrauser-offboarding/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/aad-bulk-restore-deletedgroups/assets/preview.png",
       "type": [
         "powershell"
       ],
@@ -172,8 +172,9 @@
         "Add-PnPMicrosoft365GroupMember",
         "m365 login",
         "m365 spo site list",
-        "m365 entra m365group user list ",
-        "m365 entra m365group user add"
+        "m365 entra m365group user list",
+        "m365 entra m365group user add",
+        "Governance"
       ],
       "createDate": "2023-10-29",
       "source": "script-samples"
@@ -482,7 +483,14 @@
           "pictureUrl": "https://avatars.githubusercontent.com/u/52065929?v=4"
         }
       ],
-      "tags": null,
+      "tags": [
+        "Get-PnPWeb",
+        "Get-PnPUser",
+        "Get-PnPUserProfileProperty",
+        "m365 login",
+        "m365 spo user list",
+        "m365 spo userprofile get"
+      ],
       "createDate": "2021-03-24",
       "source": "script-samples"
     },
@@ -1424,7 +1432,8 @@
         "Disconnect-PnPOnline",
         "m365 status",
         "m365 login",
-        "m365 spo list add"
+        "m365 spo list add",
+        "Migration"
       ],
       "createDate": "2021-10-08",
       "source": "script-samples"
@@ -1527,7 +1536,8 @@
         "m365 spo site apppermission add",
         "m365 spo set",
         "m365 status",
-        "m365 spo app add"
+        "m365 spo app add",
+        "Microsoft 365 cli"
       ],
       "createDate": "2023-07-27",
       "source": "script-samples"
@@ -1747,7 +1757,7 @@
       "url": "https://pnp.github.io/script-samples/spo-associate-multiple-sites-to-hub/README.html",
       "rawUrl": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/README.md",
       "description": "This PowerShell script can be used to associate mutilple site collections to Hub site. You can provide list of site collection URLs in an array.",
-      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/pnp/script-samples/main/scripts/spo-associate-multiple-sites-to-hub/assets/example.png",
       "type": [
         "powershell"
       ],
@@ -2613,7 +2623,8 @@
         "m365 login",
         "m365 spo file list",
         "m365 spo file sharinginfo get",
-        "m365 logout"
+        "m365 logout",
+        "Archive"
       ],
       "createDate": "2023-02-18",
       "source": "script-samples"
@@ -2722,7 +2733,9 @@
         "Get-PnPProperty",
         "Get-PnPFile",
         "Connect-PnPOnline",
-        "Disconnect-PnPOnline"
+        "Disconnect-PnPOnline",
+        "Migration",
+        "Archive"
       ],
       "createDate": "2021-09-26",
       "source": "script-samples"
@@ -2761,7 +2774,9 @@
         "Disconnect-PnPOnline",
         "Get-PnPTerm",
         "Get-PnPTermGroup",
-        "Get-PnPTermSet"
+        "Get-PnPTermSet",
+        "Migration",
+        "Archive"
       ],
       "createDate": "2022-07-07",
       "source": "script-samples"
@@ -4181,7 +4196,8 @@
         "m365 teams team get",
         "m365 aad o365group add",
         "m365 aad o365group list",
-        "m365 aad o365group teamify"
+        "m365 aad o365group teamify",
+        "Security"
       ],
       "createDate": "2021-06-24",
       "source": "script-samples"
@@ -4420,7 +4436,8 @@
         "m365 status",
         "m365 login",
         "m365 teams team list",
-        "m365 teams user list"
+        "m365 teams user list",
+        "Security"
       ],
       "createDate": "2021-12-24",
       "source": "script-samples"
